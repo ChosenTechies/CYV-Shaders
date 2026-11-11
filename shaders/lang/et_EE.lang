@@ -1,0 +1,1292 @@
+#shaders/lang/et_ee.lang
+
+#Profiles
+profile.POTATO=§aPotato
+profile.VERYLOW=§aVäga madal
+profile.LOW=§aMadal
+profile.MEDIUM=§aKeskmine
+profile.HIGH=§eKõrge (vaikeseade)
+profile.VERYHIGH=§eVäga kõrge
+profile.ULTRA=§cUltra
+profile.CLASSIC=§4§lCYV (klassikaline)
+profile.CYVLOOK=§4§lCYV välimus
+profile.comment=Varjutaja profiilid muudavad jõudluse seadetega parima visuaalse usutavuse ja jõudluse suhtega. §e[*]§r Soovitame kasutada oma seadete jaoks ühte neist profiilidest, kui sa just ei tea, mida teed. §e[*]§r Kõiki mõjutatud seadetid saab leida menüüst "Jõudluse seaded".
+
+#Information
+screen.INFORMATION=Teave
+screen.INFORMATION.comment=See jaotis sisaldab nuppe, mis on olemas ainult teabe edastamiseks.
+
+option.info0=§l§dCYV§r varjutaja §bLiiguta hiir nupu kohale
+value.info0.0=
+option.info0.comment=Sellel varjupakil on suurtel visuaalsüsteemidel kaks välimust: pilvedel, udul, vee pinnal ja värvide häälestusel on igaühel alternatiivne "CYV" stiil, lisaks ekstraefektid nagu "määrdunud lääs" ja "retrofilter". §e[*]§r Profiil "CYV välimus" lubab alternatiivse välimuse ühe klõpsuga.
+
+option.info1=Kuidas saada rohkem jõudlust
+value.info1.0=
+option.info1.comment=- Jõudlus on Minecraftis keeruline teema, sest sellele mõjutab nii palju asju, aga võid proovida järgnevat:. - Kasuta Iris+Sodium mode'id Optifine'i asemel, sest Optifine on probleemne ega lase isegi mõnel juhul seda kirjeldust edasi lugeda. - Vähenda "Profiil" varjutaja seadet, need on hoolikalt testitud parima visuaali/jõudluse suhte jaoks. - Vähenda oma renderdistantsi, ma soovitan seada see 2-4 chunk'i kõrgemale kui valitud "Profiili" "varjude kaugus", näiteks 16 chunk'i renderdistants "Kõrge" profiilile, 6 chunk'i Potato profiilile. - Veendu, et sinu eraldusvõime pole liiga liialdatud, 1920x1080 sobib keskmistele süsteemidele, 1440p on elujõuline tipp süsteemidele, 4k on liiga palju. - Veendu, et sul pole massiliselt mode'e, isegi kui enamus neist on "optimeerimise mode'id", pole nad varjutajate jaoks eriti abiks. Tasub ka mainida, et mõned ressursipakid, eriti need, mis lisavad keerukamat lehestikku, maksavad palju jõudlust.
+
+option.info2=Millised on parimad seaded
+value.info2.0=
+option.info2.comment=- Parimad seaded on subjektiivsed, aga vaikimisi "Profiili" valikute kasutamine on enamusele inimestest peaaegu parim. - Vaikeseaded on kujunenud aastatepikkuse kogukonna hindamiste, testimise ja tagasiside põhjal, pöörates samal ajal palju tähelepanu visuaali/jõudluse suhtele. - Aga sa peaksid siiski vabalt kohandama ja sellest rõõmu tundma!
+
+option.info3=Mis on Profiil või visuaalne stiil
+value.info3.0=
+option.info3.comment=- "Profiili" seade muudab menüüs "Jõudluse seaded" leiduvaid seadetid, aga ei mõjuta ühtegi eelistuspõhist seadet. - "Visuaalne stiil" muudab paljudel eelistuspõhistel seadetel olevaid "Stiilist määratud" väärtusi, aga ei mõjuta jõudlust olulisel määral.
+
+option.info4=Mis on RP-tugi
+value.info4.0=
+option.info4.comment=- RP-tugi valik määrab, kuidas varjupakk kohtleb erinevaid Minecrafti plokke. - Näiteks §bIntegratedPBR+§r kohtleb kuldplokke peegeldavate asjadena, samal ajal kui §elabPBR§r või §eseuspbr§r nõuab, et sa installiksid ressursipaki, mis seda varjutajale ütleks. - RP-tugi seadmine §aBaas§r peale teeb nii, et ükski plokk pole "eriline", välja arvatud paar erandit nagu vesi.
+
+option.info5=Mis on kollased seaded
+value.info5.0=
+option.info5.comment=- Kollase nimega seade tähendab, et see mõjutab jõudlust mõõdetaval määral, vaatamata sellele, et ta pole "Jõudluse seaded" kategoorias. - Kui selle lubamine toob kaasa punase valiku teksti, tähendab see, et jõudluse hind on väga kõrge.
+
+option.info6=Kas on soovitatud mode'e
+value.info6.0=
+option.info6.comment=- Peale Iris'i ja Sodium'i, mis on hädavajalikud, soovitan ploki-entiteetide optimeerimise modi nagu "Optimized Block Entities" või "Enhanced Block Entities" paremaks jõudluseks. - Peale selle võib "RenderScale" mod olla hea eraldusvõime hõlpsaks kohandamiseks. - Tasub ka mainida mode'e "Voxy" või "Distant Horizons", mis lisavad viisi ekstreemseteks renderdistantsideks mitte-ekstreemse jõudluse hinnaga; soovitan kasutada 64 kuni 256 chunk'i Voxy renderdistantsi või 64 kuni 128 chunk'i Distant Horizons'i distantsi, koos 8 kuni 12 chunk'i tavalise renderdistantsiga, kui kasutad kumbagi mode'ist. - Lõpuks saad sa kätte "Euphoria Patches" modi, mis lisab sinu varjutajate nimekirja muudetud varjupaki rohkema funktsionaalsuse ja seadetega; koos lisades mitmeid Iris'i parandusi/kohandusi isegi siis, kui sa ei kasuta muudetud varjupakki, nagu värvilise valguse töötamine isegi väga kõrgetel maailma koordinaatidel.
+
+option.info7=Kust küsida küsimusi või teatada probleemidest
+value.info7.0=
+option.info7.comment=- Palun kasuta küsimuste esitamiseks või probleemidest teatamiseks paki jagamislehe "issues" jaotist.
+
+option.info8=Kuidas saada varjutaja abi
+value.info8.0=
+option.info8.comment=- Saad liituda Discordis varjutajate modimise kogukondadega, et küsida kogenud kogukonna liikmetelt abi varjutaja seadete või probleemidega.
+
+option.info9=Kuidas pakki toetada
+value.info9.0=
+option.info9.comment=- Parim viis pakki toetada on jagada seda oma sõpradega või sotsiaalmeedias.
+
+option.info10=Tunnustus
+value.info10.0=
+option.info10.comment=- CYV Shader on tehtud Chosentechies poolt. - Ehitatud Minecrafti varjutajate kogukonna avatult jagatud varjutaja koodi peale.
+
+#Style
+option.SHADER_STYLE=Visuaalne stiil
+option.SHADER_STYLE.comment=Määrab varjupaki vaikimisi visuaalse stiili. §bReimagined§r: Täiendab Minecrafti, säilitades selle ainulaadsed visuaalsed elemendid. §dUnbound§r: Muudab Minecrafti visuaali poolrealistliku fantaasiastiiliga. §e[*]§r Mõjutatud seaded: Vee stiil, pilvestiil, päikese/kuu stiil, päikese/kuu nurk, virmaliste stiil, helendavad maagid.
+value.SHADER_STYLE.1=§bReimagined
+value.SHADER_STYLE.4=§dUnbound
+
+#Screens
+screen.PERFORMANCE_SETTINGS=§eJõudluse seaded§r
+screen.PERFORMANCE_SETTINGS.comment=Seaded, mis puudutavad otseselt jõudlust ja mida erinevad varjutaja profiilid muudavad.
+
+screen.SKY_SETTINGS=Taevas ja ilm
+screen.SKY_SETTINGS.comment=Seaded, mis puudutavad taevast, ilma, pilvi, udu ja dimensioone.
+screen.DIMENSION_SETTINGS=Dimensioonid
+screen.DIMENSION_SETTINGS.comment=Kindla dimensiooniga seotud seaded.
+
+screen.ATM_COLOR_SETTINGS=Atmosfääri värvide kordajad
+screen.ATM_COLOR_SETTINGS.comment=Lubab kohandada atmosfääri värve, mis on peamiselt nähtavad taevas ja udus.
+
+screen.MORNING_ATM_MULTS=Päikesetõusu/-loojangu aeg
+screen.NOON_ATM_MULTS=Keskpäeva aeg
+screen.NIGHT_ATM_MULTS=Öö aeg
+screen.RAIN_ATM_MULTS=Vihmase ilmaga
+screen.NETHER_ATM_MULTS=Netheri dimensioon
+screen.END_ATM_MULTS=Endi dimensioon
+
+screen.CLOUD_SETTINGS=Pilved
+screen.CLOUD_SETTINGS.comment=Seaded, mis puudutavad pilvi.
+
+screen.CLOUD_COLOR_SETTINGS=Pilve värv
+screen.CLOUD_COLOR_SETTINGS.comment=Seaded pilve värvi muutmiseks.
+
+screen.CLOUD_UNBOUND_SETTINGS=Unbound pilvede seaded
+screen.CLOUD_REIMAGINED_SETTINGS=Reimagined pilvede seaded
+
+screen.FOG_SETTINGS=Udu
+screen.FOG_SETTINGS.comment=Seaded, mis puudutavad erinevaid udu tüüpe.
+screen.CYV_FOG_SETTINGS=CYV udu seaded
+
+screen.SUN_MOON_SETTINGS=Päike / kuu
+screen.SUN_MOON_SETTINGS.comment=Seaded, mis puudutavad päikest ja kuud.
+
+screen.NETHER_SETTINGS=Netheri dimensioon
+screen.NETHER_SETTINGS.comment=Seaded, mis puudutavad Netheri dimensiooni.
+
+screen.END_SETTINGS=Endi dimensioon
+screen.END_SETTINGS.comment=Seaded, mis puudutavad Endi dimensiooni.
+
+screen.WEATHER_SETTINGS=Vihm / ilm
+screen.WEATHER_SETTINGS.comment=Seaded, mis puudutavad ilmastikuolusid
+
+screen.EFFECT_SETTINGS=Efektid
+screen.EFFECT_SETTINGS.comment=Seaded, mis puudutavad kaamerat ja pildiefekte.
+
+screen.TONEMAP_SETTINGS=Värvitasakaal
+screen.TONEMAP_SETTINGS.comment=Seaded, mis määravad visuaali värvitasakaalu.
+screen.CYV_TONEMAP_SETTINGS=CYV toonimise seaded
+screen.CYV_EXTRAS_SETTINGS=CYV lisad
+
+screen.COLORGRADING_SETTINGS=Värvide häälestus
+screen.COLORGRADING_SETTINGS.comment=Seaded lõplike värvikanalite segunemiseks.
+
+screen.WORLD_BLUR_SETTINGS=Maailma hägustus
+screen.WORLD_BLUR_SETTINGS.comment=Seaded, mis puudutavad uhkeid maailma hägustamise efekte.
+
+screen.TAA_SETTINGS=Ajalise filtri seaded
+screen.TAA_SETTINGS.comment=Seaded ajalise sakilisuse eemalduse käitumise määramiseks.
+
+screen.SURFACE_SETTINGS=Materjalid ja vesi
+screen.SURFACE_SETTINGS.comment=Seaded, mis on seotud Minecrafti materjalidega.
+
+screen.IPBR_SETTINGS=IntegratedPBR+ materjalid
+screen.IPBR_SETTINGS.comment=Seaded, mis on seotud IntegratedPBR+ funktsioonidega.
+
+screen.GLOWING_ORE_SETTINGS=Helendavad maagid
+screen.GLOWING_ORE_SETTINGS.comment=Seaded maagiplokkide eralduvuse kohandamiseks.
+
+screen.GLOWING_STUFF_SETTINGS=Helendavad muud asjad
+screen.GLOWING_STUFF_SETTINGS.comment=Seaded mitmesuguste plokkide eralduvuse kohandamiseks.
+
+screen.OTHER_IPBR_SETTINGS=Muud IPBR+ funktsioonid
+screen.OTHER_IPBR_SETTINGS.comment=Mitmesugused IntegratedPBR+ seaded.
+
+screen.CUSTOM_PBR_SETTINGS=labPBR/seuspbr materjalid
+screen.CUSTOM_PBR_SETTINGS.comment=Seaded, mis on seotud labPBR/seuspbr funktsioonidega.
+
+screen.LIGHTING_SETTINGS=Valgustus
+screen.LIGHTING_SETTINGS.comment=Seaded, mis on seotud valgustusega.
+
+screen.LIGHT_COLOR_SETTINGS=Valgustuse värvide kordajad
+screen.LIGHT_COLOR_SETTINGS.comment=Lubab kohandada valgustuse värve, mis on nähtavad kõikidel pindadel.
+
+screen.MORNING_LIGHT_MULTS=Päikesetõusu/-loojangu aeg
+screen.NOON_LIGHT_MULTS=Keskpäeva aeg
+screen.NIGHT_LIGHT_MULTS=Öö aeg
+screen.RAIN_LIGHT_MULTS=Vihmase ilmaga
+screen.NETHER_LIGHT_MULTS=Netheri dimensioon
+screen.END_LIGHT_MULTS=Endi dimensioon
+
+screen.BLOCKLIGHT_SETTINGS=Plokkvalgus §e[*]§r
+screen.BLOCKLIGHT_SETTINGS.comment=Seaded valgusallikaplokkidest eralduva valgustuse kohandamiseks. §e[*]§r Punase/rohelise/sinise värvi seaded ei mõjuta enamust valgustest, kui Täiustatud värvijälgimine on lubatud.
+
+screen.MOON_PHASE_INF_SETTINGS=Kuufaaside mõju
+screen.MOON_PHASE_INF_SETTINGS.comment=Seaded, mis määravad, kuidas erinevad kuufaasid mõjutavad öist valgustust.
+
+screen.ACT_FEATURES_SETTINGS=ACT erifunktsioonid §e[*]§r
+screen.ACT_FEATURES_SETTINGS.comment=Seaded, mis puudutavad Täiustatud värvijälgimise eksklusiivseid funktsioone. §e[*]§r Need funktsioonid töötavad ainult siis, kui Täiustatud värvijälgimine on sees Jõudluse seadetes ja sinu süsteem seda toetab.
+
+screen.PIXELATED_LIGHTING_SETTINGS=Piksliline valgustus
+screen.PIXELATED_LIGHTING_SETTINGS.comment=Seaded, et teha teatud valgustuse efektid piksliliseks.
+
+screen.WATER_SETTINGS=Vesi
+screen.WATER_SETTINGS.comment=Seaded, mis on seotud veega.
+
+screen.WATER_COLOR_SETTINGS=Vee pinna värv
+
+screen.UNDERWATER_COLOR_SETTINGS=Veealune värv
+
+screen.WATER_WAVE_SETTINGS=Lainetavad vee normaalid §e[*]§r
+screen.WATER_WAVE_SETTINGS.comment=Seaded vee peal nähtavate pinnasuunaliste lainete (normaalide) kohandamiseks. §e[*]§r Need seaded töötavad ainult siis, kui Vee stiil on seatud "Reimagined + Waves" või "Unbound" peale.
+
+screen.WAVING_SETTINGS=Lainetavad tekstuurid
+screen.WAVING_SETTINGS.comment=Seaded, mis on seotud lainetavate tekstuuridega.
+
+screen.WORLD_SETTINGS=Maailm ja liides
+screen.WORLD_SETTINGS.comment=Seaded, mis puudutavad maailma ja liidese katteid.
+
+screen.SELECT_OUTLINE_SETTINGS=Valiku kontuur
+screen.SELECT_OUTLINE_SETTINGS.comment=Seaded, mis muudavad plokivaliku kontuuri.
+
+screen.WORLD_OUTLINE_SETTINGS=Maailma kontuur
+screen.WORLD_OUTLINE_SETTINGS.comment=Seaded, mis on seotud valikuliste kontuuriefektidega.
+
+#Settings
+option.RP_MODE=RP-tugi
+option.RP_MODE.comment=Muudab paljusid sisemisi arvutusi, et määrata, kuidas erinevaid plokke ja materjale renderdatakse. §bIntegrated PBR+§r: Arvutatud PBR ja ekstraefektid, soovitatud enamusele kasutusjuhtudele. §aBaas§r: Ei PBR'i ega ekstraefekte. §elabPBR/seuspbr§r: Materjalid, kasutades vajalikke PBR ressursipakke.
+value.RP_MODE.0=§aBaas
+value.RP_MODE.1=§bIntegrated PBR+
+value.RP_MODE.2=§eseuspbr (RP nõutud)
+value.RP_MODE.3=§elabPBR (RP nõutud)
+
+option.WATER_REFLECT_QUALITY=Vee peegelduse kvaliteet
+option.WATER_REFLECT_QUALITY.comment=Kohandab peegelduste visuaalset kvaliteeti, mis ilmuvad poolläbipaistvatele. §cKeskmine§r: Ekraaniruumis kiirte jälgimisega peegeldused vees ja poolläbipaistvates. §ePotato§r: Asendab vee ja poolläbipaistvate peegeldused kiirema meetodiga, võib mõnes olukorras vaadata vale välja. §aVÄLJA§r: Ei peegeldusi.
+value.WATER_REFLECT_QUALITY.-1=§aVÄLJA
+value.WATER_REFLECT_QUALITY.0=§aAinult taevas
+value.WATER_REFLECT_QUALITY.1=§ePotato
+value.WATER_REFLECT_QUALITY.2=§cKeskmine
+
+option.BLOCK_REFLECT_QUALITY=Ploki peegelduse kvaliteet §e[*]§r
+option.BLOCK_REFLECT_QUALITY.comment=Kohandab peegelduste visuaalset kvaliteeti, mis ilmuvad tahketel materjalidel. §cKõrge§r: Päikese/kuu sära + arenenud spetsulaarsed peegeldused. §eMadal§r: Ainult päikese/kuu sära. §e[*]§r RP-tugi valik peab olema seatud misiganes peale Baasi, et spetsulaarsed peegeldused üldse ilmuksid.
+value.BLOCK_REFLECT_QUALITY.0=§aVÄLJA
+value.BLOCK_REFLECT_QUALITY.1=§eMadal
+value.BLOCK_REFLECT_QUALITY.3=§cKõrge
+
+option.SHADOW_QUALITY=Reaalajas varjud
+option.SHADOW_QUALITY.comment=Kohandab varjude kvaliteeti. Iga järgmine tase vähendab veelgi varjude müraartefakte, §eMadal§r ja §eVäga madal§r kasutavad lihtsamat varjude filtreerimist, §eVäga madal§r keelab ka värvilised varjud, §aVÄLJA§r keelab varjud ja valguskiired täielikult. §e[*]§r See seade on sisemiselt piiratud "Madal" peale, kui sa keelad Ajalise filtri või lubad Pikslilised varjud seadete.
+value.SHADOW_QUALITY.-1=§aVÄLJA
+value.SHADOW_QUALITY.0=§eVäga madal
+value.SHADOW_QUALITY.1=§eMadal
+value.SHADOW_QUALITY.2=§eKeskmine
+value.SHADOW_QUALITY.3=§cKõrge
+value.SHADOW_QUALITY.4=§cVäga kõrge
+value.SHADOW_QUALITY.5=§4§lUltra
+
+option.LIGHTSHAFT_QUALI_DEFINE=Valguskiirte kvaliteet §e[*]§r
+option.LIGHTSHAFT_QUALI_DEFINE.comment=Kohandab valguskiirte kvaliteeti. Iga järgmine tase vähendab veelgi müraartefakte. §e[*]§r "Reaalajas varjud" seade peab olema seatud misiganes peale VÄLJA, et valguskiired töötaksid. §e[*]§r See seade kontrollib ka End kiirte kvaliteeti, erandiga, et "VÄLJA" valikut käsitletakse kui "Madal".
+value.LIGHTSHAFT_QUALI_DEFINE.0=§aVÄLJA
+value.LIGHTSHAFT_QUALI_DEFINE.1=§eMadal
+value.LIGHTSHAFT_QUALI_DEFINE.2=§eKeskmine
+value.LIGHTSHAFT_QUALI_DEFINE.3=§cKõrge
+value.LIGHTSHAFT_QUALI_DEFINE.4=§4§lVäga kõrge
+
+option.shadowDistance=Varjude kaugus
+option.shadowDistance.comment=Kohandab kaugust mängijast, kuni kus reaalajas varjud renderdatakse. §c[-]§r Madalamad väärtused võivad põhjustada liigset valguskiirte lekkimist.
+value.shadowDistance.64.0=§a4 chunk'i §c[-]
+value.shadowDistance.80.0=§a5 chunk'i §c[-]
+value.shadowDistance.96.0=§a6 chunk'i §c[-]
+value.shadowDistance.112.0=§a7 chunk'i §c[-]
+value.shadowDistance.128.0=§a8 chunk'i
+value.shadowDistance.160.0=§e10 chunk'i
+value.shadowDistance.192.0=§e12 chunk'i
+value.shadowDistance.224.0=§e14 chunk'i
+value.shadowDistance.256.0=§c16 chunk'i
+value.shadowDistance.320.0=§c20 chunk'i
+value.shadowDistance.384.0=§4§l24 chunk'i
+value.shadowDistance.512.0=§4§l32 chunk'i
+value.shadowDistance.768.0=§4§l§n§o48 chunk'i
+value.shadowDistance.1024.0=§4§k-§r§4§l§n§o64 chunk'i§r§4§k-
+
+option.ENTITY_SHADOW=Olendite varjud
+option.ENTITY_SHADOW.comment=Lubab varjud, mida viskavad olendid ja ploki-entiteedid. "Tavalised olendid" hõlmab asju nagu loomad ja kollikised, samal ajal "Täielik" valik hõlmab ka ploki-entiteete nagu kirstud. §c[-]§r Olendite varjud mõjutavad jõudlust palju rohkem kui oodatakse, makstes mõnel juhul rohkem kui 50% sinust fps'ist.
+value.ENTITY_SHADOW.-1=§aVÄLJA
+value.ENTITY_SHADOW.1=§cTavalised olendid
+value.ENTITY_SHADOW.2=§4§k-§r§4§l§n§oTäielik§r§4§k- §r§c[-]
+
+option.DETAIL_QUALITY=Detailide kvaliteet
+option.DETAIL_QUALITY.comment=Kohandab mitmeid väikseid asju, mis mõjutavad jõudlust. Kohandab kvaliteeti: vee materjalile, TAA'le, valgustuse kohandustele, Öö udupeenrale, Netheri tormile, taevas efektide peegeldustele, vihmalompide täpsusele, lainetuse efektile, liikumise hägustusele, peegelduste parandustele, tekstuuride filtreerimisele poolläbipaistvatel
+value.DETAIL_QUALITY.0=§aPotato
+value.DETAIL_QUALITY.2=§eKeskmine
+value.DETAIL_QUALITY.3=§cKõrge
+value.DETAIL_QUALITY.4=§4§k-§r§4§l§n§oUltra§r§4§k-
+
+option.CLOUD_QUALITY=Pilve kvaliteet
+option.CLOUD_QUALITY.comment=Kohandab Reimagined/Unbound pilvestiilide valgustust, detailide hulka ja näidiste kvaliteeti. §e[*]§r See seade töötab ainult "Reimagined" või "Unbound" pilvestiilidega.
+value.CLOUD_QUALITY.0=§aVÄLJA
+value.CLOUD_QUALITY.1=§aMadal
+value.CLOUD_QUALITY.2=§eKeskmine
+value.CLOUD_QUALITY.3=§cKõrge
+
+option.FXAA_DEFINE=Sakilisuse eemaldus (FXAA)
+option.FXAA_DEFINE.comment=Lubab Kiire Ligikaudse Sakilisuse Eemalduse (FXAA), mis on põhimõtteliselt efekt, mis toodab siledamat pilti.
+value.FXAA_DEFINE.-1=§aVÄLJA
+value.FXAA_DEFINE.1=§eSISSE
+
+option.SSAO_QUALI_DEFINE=Äärevarju (SSAO) kvaliteet
+option.SSAO_QUALI_DEFINE.comment=Kohandab Ekraaniruumi Üldvalguse Oklusiooni (SSAO) kvaliteeti, mis lisab ekstra üldvalguse varjutust stseena äärtesse. Iga järgmine tase vähendab veelgi ssao müraartefakte.
+value.SSAO_QUALI_DEFINE.0=§aVÄLJA
+value.SSAO_QUALI_DEFINE.2=§eKeskmine
+value.SSAO_QUALI_DEFINE.3=§cKõrge
+
+option.ANISOTROPIC_FILTER=Tekstuuride filtreerimine
+option.ANISOTROPIC_FILTER.comment=Parandab mipitud tekstuuride kvaliteeti anisotroopse filtreerimise abil. §e[*]§r Veendu, et sinu "Mipmap tasemed" videosseade on seatud Maksimaalsele (4), muidu ei saa sa häid tulemusi.
+value.ANISOTROPIC_FILTER.0=§aVÄLJA
+value.ANISOTROPIC_FILTER.4=§e4x
+value.ANISOTROPIC_FILTER.8=§e8x
+value.ANISOTROPIC_FILTER.16=§4§l16x
+
+option.COLORED_LIGHTING=Täiustatud värvijälgimine §e[*]§r
+option.COLORED_LIGHTING.comment=Kasutab vokseliseerimist ja floodfill valgustust, et lisada plokkvalgusele värvi, koos mõnede uute valgustega. §e[*]§r See funktsioon töötab ainult Iris'il ja toetatud platvormidel. §e[*]§r See seade keelatakse, kui "Reaalajas varjud" on VÄLJA. §a[+]§r Täiustatud värvijälgimise süsteem lubab ka mõned teised funktsioonid, mida saad eraldi lubada/keelata menüüs "Muud" -> "ACT erifunktsioonid". §c[-]§r Kõrged chunk'i väärtused selle efekti jaoks mõjutavad jõudlust palju rohkem kui oodatakse, iga suurendus võib maksta rohkem kui kaks korda eelmise taseme jõudlust. §c[-]§r Värvilised valgused võivad tekitada mõned valguse värvi lekkimise probleemid, kui tegeleda mitte-täisplokkide või mode'itud plokkidega.
+value.COLORED_LIGHTING.0=§aVÄLJA
+value.COLORED_LIGHTING.128=§c4 chunk'i
+value.COLORED_LIGHTING.192=§c6 chunk'i
+value.COLORED_LIGHTING.256=§4§l8 chunk'i
+value.COLORED_LIGHTING.384=§4§l12 chunk'i
+value.COLORED_LIGHTING.512=§4§l§n§o16 chunk'i
+value.COLORED_LIGHTING.768=§4§l§n§o24 chunk'i §r§c[-]
+value.COLORED_LIGHTING.1024=§4§k-§r§4§l§n§o32 chunk'i§r§4§k- §r§c[-]
+
+option.WORLD_SPACE_REFLECTIONS=Maailmaruumi peegeldused §e[*]§r
+option.WORLD_SPACE_REFLECTIONS.comment=Arvutab peegeldused maailmaruumis ekraaniruumi asemel. §e[*]§r See funktsioon töötab ainult siis, kui Täiustatud värvijälgimine on sees Jõudluse seadetes ja sinu süsteem seda toetab. §e[*]§r Selle efekti maksimaalne kaugus sõltub Täiustatud värvijälgimise kaugusest, aga see on sisemiselt piiratud 16 chunk'ile tehnilistel põhjustel. §c[-]§r See efekt võib tõsiselt mõjutada jõudlust, eriti kõrgemate Täiustatud värvijälgimise kaugustega. §c[-]§r Maailmaruumi peegeldustel võib olla mitu tüüpi probleeme mode'ide või ressursipakkidega.
+value.WORLD_SPACE_REFLECTIONS.-1=§aVÄLJA
+value.WORLD_SPACE_REFLECTIONS.1=§4§l§n§oSISSE
+
+option.WORLD_SPACE_REF_MODE=WSR režiim §e[*]§r
+option.WORLD_SPACE_REF_MODE.comment=Määrab maailmaruumi peegelduste töörežiimi. §e[*]§r "Ainult WSR" režiim on hea kõikide ekraaniruumi peegelduste artefaktide elimineerimiseks, sest ta näitab ainult maailmaruumi peegeldusi, aga "WSR + SSR" režiim on parem rohkema kogudetaili saamiseks peegeldustesse, sest ekraaniruumi peegeldustel on ligipääs kõikidele detailidele, mis on ekraanil, ilma et nad oleksid piiratud plokkide või kindla kaugusega.
+value.WORLD_SPACE_REF_MODE.1=Ainult WSR
+value.WORLD_SPACE_REF_MODE.2=WSR + SSR
+
+option.WORLD_SPACE_PLAYER_REF=WS mängija peegeldused
+option.WORLD_SPACE_PLAYER_REF.comment=Teeb nii, et praeguse mängija oma mängijamudel peegeldataks maailmaruumi peegelduste sees.
+value.WORLD_SPACE_PLAYER_REF.-1=VÄLJA
+value.WORLD_SPACE_PLAYER_REF.1=SISSE
+
+option.SSAO_I=Äärevarju intensiivsus (SSAO)
+option.SSAO_I.comment=Määrab Ekraaniruumi Üldvalguse Oklusiooni (SSAO) tugevuse, mis lisab ekstra üldvalguse varjutust stseena äärtesse. §e[*]§r See seade ei tööta, kui SSAO on keelatud "Jõudluse seadetes".
+value.SSAO_I.0=VÄLJA
+
+option.VANILLAAO_I=Äärevarju intensiivsus (Vanilla)
+option.VANILLAAO_I.comment=Määrab Minecrafti üldvalguse oklusiooni tugevuse, mis lisab ekstra üldvalguse varjutust stseena äärtesse.
+value.VANILLAAO_I.0=VÄLJA
+
+option.BORDER_FOG=Piiriala udu
+option.BORDER_FOG.comment=Intensiivne udu laaditud maailma äärtes, et peita chunk'i piire. §e[*]§r Soovitatud on keelata Piiriala udu, kui mängid vähem kui 8 chunk'i renderdistantsiga.
+
+option.FOG_STYLE=Atmosfäärilise udu stiil
+option.FOG_STYLE.comment=Määrab atmosfäärilise udu stiili. "Klassikaline" kasutab paki vaikimisi udu, samal ajal "CYV" kasutab alternatiivset udu mudelit: kõrguspõhine pinnaudu, päevaaja ja ilmastiku tiheduse kordajad ning alternatiivne horisondi udu värv. §e[*]§r "CYV" stiil mõjutab ainult ülmaailma ja omab oma seadetid "CYV udu seadete" sees.
+value.FOG_STYLE.0=Klassikaline
+value.FOG_STYLE.1=CYV
+
+option.CYV_FOG_DENSITY=CYV udu tihedus
+option.CYV_FOG_DENSITY.comment=Kohandab CYV atmosfäärilise udu baastihedust. §e[*]§r See seade töötab ainult "CYV" atmosfäärilise udu stiiliga.
+
+option.CYV_FOG_DENSITY_NIGHT=CYV öise udu tihedus
+option.CYV_FOG_DENSITY_NIGHT.comment=Kohandab udu tiheduse kordajat öö ajal CYV udu stiiliga. Kõrgemad väärtused toodavad paksemat öist udu. §e[*]§r See seade töötab ainult "CYV" atmosfäärilise udu stiiliga.
+
+option.CYV_FOG_DENSITY_WEATHER=CYV ilmastiku udu tihedus
+option.CYV_FOG_DENSITY_WEATHER.comment=Kohandab udu tiheduse kordajat vihma/lume ajal CYV udu stiiliga. §e[*]§r See seade töötab ainult "CYV" atmosfäärilise udu stiiliga.
+
+option.CYV_FOG_DENSITY_INDOOR=CYV siseudu tihedus
+option.CYV_FOG_DENSITY_INDOOR.comment=Kohandab, kui palju udu järele jääb, kui kaamera on suletud ruumide sees, CYV udu stiiliga. §e[*]§r See seade töötab ainult "CYV" atmosfäärilise udu stiiliga.
+
+option.CYV_FOG_DENSITY_LOD=CYV LOD udu tihedus
+option.CYV_FOG_DENSITY_LOD.comment=Kohandab udu tiheduse kordajat Distant Horizons'i ja Voxy chunk'idele, CYV udu stiiliga. §e[*]§r See seade töötab ainult "CYV" atmosfäärilise udu stiiliga.
+
+option.CYV_FOG_HEIGHT=CYV kõrgusudu
+option.CYV_FOG_HEIGHT.comment=Vähendab CYV udu teatud maailma kõrguse kohal, toodetes CYV jaoks tüüpilist pinnaudu riba. §e[*]§r See seade töötab ainult "CYV" atmosfäärilise udu stiiliga.
+
+option.CYV_FOG_HEIGHT_Y=CYV kõrgusudu kõrgustase
+option.CYV_FOG_HEIGHT_Y.comment=Maailma kõrgus, kus CYV kõrgusudu hakkab udu tihedust vähendama. §e[*]§r See seade töötab ainult "CYV" atmosfäärilise udu stiili ja lubatud "CYV kõrgusudu"ga.
+
+option.CYV_FOG_HEIGHT_FALLOFF=CYV kõrgusudu hääbumine
+option.CYV_FOG_HEIGHT_FALLOFF.comment=Kohandab, kui kiiresti CYV kõrgusudu kõrgustasemega väheneb. Kõrgemad väärtused toodavad pehmemat üleminekut. §e[*]§r See seade töötab ainult "CYV" atmosfäärilise udu stiili ja lubatud "CYV kõrgusudu"ga.
+
+option.ATM_FOG_MULT=Atmosfääriline udu
+option.ATM_FOG_MULT.comment=Kohandab kõrgusepõhise udu intensiivsust.
+value.ATM_FOG_MULT.0.50=Väga peenike
+value.ATM_FOG_MULT.0.65=Peenike
+value.ATM_FOG_MULT.0.80=Tavaline
+value.ATM_FOG_MULT.0.95=Intensiivne
+
+option.ATM_FOG_DISTANCE=Atmosfäärilise udu kaugus
+option.ATM_FOG_DISTANCE.comment=Kohandab kaugust kaamerast, kus atmosfääriline udu hakatab ilmuma. §e[*]§r Pane tähele, et udu kaugust kohandatakse ka automaatselt videosseadete Renderdistantsi seadetega.
+
+option.ATM_FOG_ALTITUDE=Atmosfäärilise udu kõrgustase
+option.ATM_FOG_ALTITUDE.comment=Määrab kõrgustaseme, kus atmosfääriline udu ilmub kõige silmapaistvamalt.
+
+option.CAVE_FOG=Koopa udu
+option.CAVE_FOG.comment=Lubab ekstra udu sügavatel maa-alustel aladel.
+
+option.LIGHTSHAFT_BEHAVIOUR=Valguskiirte režiim
+option.LIGHTSHAFT_BEHAVIOUR.comment=Määrab valguskiirte käitumise. §a[+]§r Stseeni teadlikud valguskiired vahetavad automaatselt tavapärase ja ekstreemse režiimi vahel, et pakkuda parimaid tulemusi. §c[-]§r Ekstreemset režiimi pole üldiseks mängimiseks soovitatud ja see võib tõsiselt mõjutada jõudlust.
+value.LIGHTSHAFT_BEHAVIOUR.0=VÄLJA
+value.LIGHTSHAFT_BEHAVIOUR.1=Stseeni teadlik §a[+]
+value.LIGHTSHAFT_BEHAVIOUR.2=Tavapärane
+value.LIGHTSHAFT_BEHAVIOUR.3=Ekstreemne §c[-]
+
+option.LIGHTSHAFT_SMOKE=§eValguskiirte suits§r
+option.LIGHTSHAFT_SMOKE.comment=Lisab mahulise suitsu valguskiirtele. §c[-]§r See efekt võib tõsiselt mõjutada jõudlust.
+
+option.SPECIAL_PALE_GARDEN_LIGHTSHAFTS=Erilised Pale Gardeni kiired
+option.SPECIAL_PALE_GARDEN_LIGHTSHAFTS.comment=Teeb valguskiired ekstra eriliseks "Pale Garden" bioloogias.
+
+option.LIGHTSHAFT_NOON_I=Valguskiirte keskpäeva kordaja
+option.LIGHTSHAFT_SUNSET_I=Valguskiirte loojangu kordaja
+option.LIGHTSHAFT_NIGHT_I=Valguskiirte öö kordaja
+option.LIGHTSHAFT_RAIN_I=Valguskiirte vihma kordaja
+
+option.LIGHTSHAFT_SUNSET_SATURATION=Valguskiirte loojangu värv
+option.LIGHTSHAFT_SUNSET_SATURATION.comment=Kohandab ekstra värvi küllastust, mis antakse valguskiirte värvi päikesetõusu ja -loojangu aegadel. Kõrgemad väärtused toodavad punakat oranži, samal ajal madalamad väärtused nihutavad seda kollase suunas.
+
+option.CLOUD_STYLE_DEFINE=Pilvestiil
+option.CLOUD_STYLE_DEFINE.comment=Määrab pilvede stiili. §e[*]§r "Stiilist määratud" tähendab, et seade määratakse automaatselt Varjutaja valikute peamenüüs "Visuaalne stiil" seadetega. §e[*]§r "Vanilla" stiil nõuab pilvede lubamist videosseadetes.
+value.CLOUD_STYLE_DEFINE.-1=Stiilist määratud
+value.CLOUD_STYLE_DEFINE.0=VÄLJA
+value.CLOUD_STYLE_DEFINE.1=Reimagined
+value.CLOUD_STYLE_DEFINE.2=CYV §e[*]
+value.CLOUD_STYLE_DEFINE.3=Unbound
+value.CLOUD_STYLE_DEFINE.50=Vanilla §e[*]
+
+option.CLOUD_SHADOWS=Pilvevarjud
+option.CLOUD_SHADOWS.comment=Lubab varjud, mida viskavad pilved. §e[*]§r See seade töötab ainult "Reimagined" või "Unbound" pilvestiilidega. §e[*]§r Pilvevarjud genereeritakse juhuslikult, kui pilvestiil on seatud "Unbound" peale, sest Unbound pilvede ekstra keerukuse tõttu.
+
+option.CLOUD_CLOSED_AREA_CHECK=Väldi pilvi ruumide sees
+option.CLOUD_CLOSED_AREA_CHECK.comment=Teeb ekstra kontrollimisi, et eemaldada pilved suletud aladelt. §e[*]§r See seade töötab ainult "Reimagined" või "Unbound" pilvestiilidega. §e[*]§r See seade keelatakse, kui "Reaalajas varjud" on VÄLJA.
+
+option.CLOUD_ALT1=Pilve kõrgustase §e[*]§r
+option.CLOUD_ALT1.comment=Määrab maailma kõrguse, kus pilved ilmuvad. §e[*]§r Seda seadet saab sisemiselt suurendada või vähendada sõltuvalt sinu dimensioonide seadetest ja mode'itest. §e[*]§r See seade töötab ainult "Reimagined" või "Unbound" pilvestiilidega.
+
+option.CLOUD_SPEED_MULT=Pilve kiirus
+option.CLOUD_SPEED_MULT.comment=Määrab, kui kiiresti pilved liiguvad. "Sünkroonitud maailma ajaga" seade kasutab Minecrafti maailma aega pilve positsioonide edasiliikumiseks; see lubab pilvedel näida samamoodi mängijate vahel samas serveris. §e[*]§r See seade töötab ainult "Reimagined" või "Unbound" pilvestiilidega.
+value.CLOUD_SPEED_MULT.100=Sünkroonitud maailma ajaga
+
+option.CLOUD_R=Pilve punane kordaja
+option.CLOUD_G=Pilve roheline kordaja
+option.CLOUD_B=Pilve sinine kordaja
+
+option.CLOUD_UNBOUND_AMOUNT=Pilvede hulk
+option.CLOUD_UNBOUND_AMOUNT.comment=Kohandab Unbound pilvede hulka.
+
+option.CLOUD_UNBOUND_SIZE_MULT=Pilvede väiksus §c[-]§r
+option.CLOUD_UNBOUND_SIZE_MULT.comment=Kohandab Unbound pilvede suurust. Kõrgemad väärtused toodavad väiksemaid pilvi. §c[-]§r Selle seadete muutmine keelab CYV "pilvede sünkroonimise mängijate vahel samas serveris" funktsiooni.
+
+option.CLOUD_UNBOUND_RAIN_ADD=Vihmapilvede lisand
+option.CLOUD_UNBOUND_RAIN_ADD.comment=Kohandab pilvehulga suurenemist, mis rakendub vihma/lume ajal.
+
+screen.CLOUD_CYV_SETTINGS=CYV pilvede seaded
+
+option.CLOUD_CYV_BASE=Pilve alus
+option.CLOUD_CYV_BASE.comment=Määrab CYV pilvede baasmüstra. "Perlin" toodab siledaid, venivaid pilvi, "Worley" toodab paffseid kumulustüüpi pilvi ja "Blocky" toodab lamedaid, nurklikke pilvi, mis meenutavad klassikalist Minecraftit.
+value.CLOUD_CYV_BASE.0=Perlin
+value.CLOUD_CYV_BASE.1=Worley
+value.CLOUD_CYV_BASE.2=Blocky
+
+option.CLOUD_CYV_DENSITY=Pilve tihedus
+option.CLOUD_CYV_DENSITY.comment=Kohandab, kui tihedad ja tahked CYV pilved näivad.
+
+option.CLOUD_CYV_AMOUNT=Pilve katvus
+option.CLOUD_CYV_AMOUNT.comment=Kohandab, kui palju taevas CYV pilved kaitvad. Madalamad väärtused toodavad rohkem pilvi.
+
+option.CLOUD_CYV_SCALE=Pilve suurus
+option.CLOUD_CYV_SCALE.comment=Kohandab CYV pilvede horisontaalset suurust.
+
+option.CLOUD_CYV_STRETCH=Pilve venitus
+option.CLOUD_CYV_STRETCH.comment=Kohandab, kui palju CYV pilvi horisontaalselt venitatakse.
+
+option.CLOUD_CYV_THICKNESS=Pilve paksus
+option.CLOUD_CYV_THICKNESS.comment=Kohandab CYV pilvede vertikaalset paksust.
+
+option.CLOUD_CYV_DETAIL=Pilve detailide hulk
+option.CLOUD_CYV_DETAIL.comment=Kohandab peente detailimüra hulka CYV pilvedes.
+
+option.CLOUD_CYV_OPACITY=Pilve läbipaistmatus
+option.CLOUD_CYV_OPACITY.comment=Kohandab CYV pilvede läbipaistmatust.
+
+option.CLOUD_CYV_BRIGHTNESS=Pilve heledus
+option.CLOUD_CYV_BRIGHTNESS.comment=Kohandab CYV pilvede heledust.
+prefix.CLOUD_UNBOUND_RAIN_ADD=+
+
+option.DOUBLE_REIM_CLOUDS=Topelt Reimagined pilved
+option.DOUBLE_REIM_CLOUDS.comment=Lubab sekundaarse Reimagined pilvekihi. §e[*]§r See seade töötab ainult "Reimagined" pilvestiiliga.
+
+option.CLOUD_ALT2=Pilve kihi 2 kõrgustase
+option.CLOUD_ALT2.comment=Määrab maailma kõrguse, kus teise kihi pilved ilmuvad. §e[*]§r See seade töötab ainult siis, kui "Topelt Reimagined pilved" valik on lubatud "Reimagined" pilvestiiliga.
+
+option.NETHER_STORM=§eNetheri torm§r
+option.NETHER_STORM.comment=Lisab suitsulaadse mahulise efekti Netheri dimensioonile. §c[-]§r See efekt võib mõjutada jõudlust.
+
+option.NETHER_STORM_I=Netheri tormi läbipaistmatus
+option.NETHER_STORM_I.comment=Kohandab Netheri tormi läbipaistmatust.
+
+option.NETHER_STORM_LOWER_ALT=Netheri tormi alumine kõrgustase
+option.NETHER_STORM_LOWER_ALT.comment=Määrab Netheri tormi alumise alguspunkti. Netheri torm ei ilmu sellest kõrgustasemest allapoole ja ta näib kõige heledam otse selle kõrgustaseme kohal.
+
+option.NETHER_STORM_HEIGHT=Netheri tormi kõrgus
+option.NETHER_STORM_HEIGHT.comment=Määrab, kui kõrgeks Netheri torm moodustub. Selle väärtuse vähendamine toob kaasa Netheri tormi kogunemise "Netheri tormi alumise kõrgustaseme" lähedale.
+
+option.NETHER_VIEW_LIMIT=§eNetheri vaatelimiit§r
+option.NETHER_VIEW_LIMIT.comment=Määrab maksimaalse kauguse, mida udu lubab Netheris nähtavaks. §c[-]§r Selle seadete suurendamine võib mõjutada jõudlust, kui "Netheri torm" on lubatud.
+value.NETHER_VIEW_LIMIT.96.0=6 chunk'i
+value.NETHER_VIEW_LIMIT.112.0=7 chunk'i
+value.NETHER_VIEW_LIMIT.128.0=8 chunk'i
+value.NETHER_VIEW_LIMIT.160.0=10 chunk'i
+value.NETHER_VIEW_LIMIT.192.0=12 chunk'i
+value.NETHER_VIEW_LIMIT.224.0=14 chunk'i
+value.NETHER_VIEW_LIMIT.256.0=16 chunk'i
+value.NETHER_VIEW_LIMIT.320.0=20 chunk'i
+value.NETHER_VIEW_LIMIT.384.0=24 chunk'i
+value.NETHER_VIEW_LIMIT.512.0=32 chunk'i §c[-]
+value.NETHER_VIEW_LIMIT.768.0=48 chunk'i §c[-]
+value.NETHER_VIEW_LIMIT.1024.0=64 chunk'i §c[-]
+value.NETHER_VIEW_LIMIT.99999.0=Piiramatu §c[-]
+
+option.NETHER_COLOR_MODE=Värvirežiim
+option.NETHER_COLOR_MODE.comment=Määrab, kuidas olustiku värve Netheris käsitletakse. Konstantne: värvid ei muutu bioloogiate vahel. Bioloogiapõhine: värvid muutuvad sõltuvalt bioloogiast. Bioloogiapõhine (muudetud): bioloogiapõhine, aga värvid on ümber tasakaalustatud, et paremini sobida CYV vaikimisi visuaalse suunaga.
+value.NETHER_COLOR_MODE.3=Bioloogiapõhine (muudetud)
+value.NETHER_COLOR_MODE.2=Bioloogiapõhine
+value.NETHER_COLOR_MODE.0=Konstantne
+
+option.END_BEAM_INTENSITY=End kiirte intensiivsus
+option.END_BEAM_INTENSITY.comment=Kohandab kiirte heledust, mis on nähtavad Endi dimensioonis.
+
+option.END_STAR_INTENSITY=End tähtede intensiivsus
+option.END_STAR_INTENSITY.comment=Kohandab tähtede heledust, mis on nähtavad Endi dimensioonis.
+
+option.END_FLASHES=End sähvatused
+option.END_FLASHES.comment=Lubab toe "End välk" keskkonnaefektile, mis lisati Minecraft 1.21.9. Taevas sähvatuste intensiivsus on otseselt seotud End kiirte intensiivsusega.
+
+option.END_BEAM_CENTER_ALT=End kiirte keskmine kõrgustase
+option.END_BEAM_CENTER_ALT.comment=Kohandab kõrgustaset, kus End kiired keskenduvad maailma y-tasemele.
+
+option.END_BEAM_HEIGHT=End kiirte kõrgus
+option.END_BEAM_HEIGHT.comment=Kohandab End kiirte füüsilist kõrgust.
+
+option.TM_EXPOSURE=Üldine heledus
+option.TM_EXPOSURE.comment=Tuntud ka kui "Toonimise säritus". Kohandab kogu pildi üldist heledust.
+
+option.TM_STYLE=Toonimise stiil
+option.TM_STYLE.comment=Määrab, millist toonimiskõverat kasutatakse. "Klassikaline" kasutab paki vaikimisi kõverat, samal ajal "CYV" kasutab alternatiivset kõverat. §e[*]§r CYV kõver kasutab "CYV toonimise seadete" sees olevaid seadetid, klassikaline kõver kasutab seadetid "Üldine heledus", "Üldine kontrast", "Valge jõudmine" ja "Tumeduse värvituks muutmine".
+value.TM_STYLE.0=Klassikaline
+value.TM_STYLE.1=CYV
+
+option.TM_CYV_EXPOSURE=CYV säritus
+option.TM_CYV_EXPOSURE.comment=Kohandab CYV toonimiskõveri säritust. §e[*]§r See seade töötab ainult "CYV" toonimise stiiliga.
+
+option.TM_CYV_LOWER_CURVE=CYV alumine kõver
+option.TM_CYV_LOWER_CURVE.comment=Kohandab CYV toonimiskõveri varjude reaktsioonikõverat. Väärtused alla 1.0 tõstavad varjusid, väärtused üle 1.0 süvendavad neid. §e[*]§r See seade töötab ainult "CYV" toonimise stiiliga.
+
+option.TM_CYV_UPPER_CURVE=CYV ülemine kõver
+option.TM_CYV_UPPER_CURVE.comment=Kohandab CYV toonimiskõveri helenduste reaktsioonikõverat. §e[*]§r See seade töötab ainult "CYV" toonimise stiiliga.
+
+option.TM_CYV_WHITE_CURVE=CYV valge kõver
+option.TM_CYV_WHITE_CURVE.comment=Kohandab, kui kiiresti heledad värvid CYV toonimiskõveris valgele jooksevad. Madalamad väärtused toodavad pehmemaid helendusi. §e[*]§r See seade töötab ainult "CYV" toonimise stiiliga.
+
+option.TM_CYV_WHITE_PATH=CYV valge tee
+option.TM_CYV_WHITE_PATH.comment=Kohandab, kui palju pilti CYV valge kõver ja värvitumise tee mõjutab. §e[*]§r See seade töötab ainult "CYV" toonimise stiiliga.
+
+option.DIRTY_LENS=Määrdunud lääs
+option.DIRTY_LENS.comment=Lisab määrded ja prahi lääse, mida bloom valgustab, andes rohkem fotolikuma väljanägemise. §e[*]§r See seade nõuab "Bloom" lubamist.
+
+option.RETRO_FILTER=Retrofilter
+option.RETRO_FILTER.comment=Kvanditab värvid piiratud paletti, andes retro, ditheritud väljanägemise.
+
+option.RETRO_FILTER_SIZE=Retrofiltri suurus
+option.RETRO_FILTER_SIZE.comment=Kohandab Retrofiltri ditherimise ploki suurust.
+
+option.RETRO_FILTER_DEPTH=Retrofiltri sügavus
+option.RETRO_FILTER_DEPTH.comment=Kohandab, mitme värvitaseme peale Retrofilter kvanditab. Madalamad väärtused toodavad tugevamat retro väljanägemist.
+
+option.TM_CONTRAST=Üldine kontrast
+option.TM_CONTRAST.comment=Kohandab tumedate värvide tumedust ja heledate värvide heledust.
+
+option.T_SATURATION=Küllastus
+option.T_SATURATION.comment=Kohandab pildi üldist värvilisust.
+
+option.T_VIBRANCE=Pehmete värvide küllastus
+option.T_VIBRANCE.comment=Tuntud ka kui "Vibrance". Kohandab pildi värvilisust, aga juba värvilised pikslid on vähem mõjutatud.
+
+option.TM_DARK_DESATURATION=Tumeduse värvituks muutmine
+option.TM_DARK_DESATURATION.comment=Kohandab värvimattimise efekti hulka, mis rakendub tumedamatele aladele.
+
+option.TM_WHITE_PATH=Valge jõudmine
+option.TM_WHITE_PATH.comment=Kohandab, kui hõlpsasti heledamad värvid jõuavad valgeni.
+
+option.COLORGRADING=§eVärvide häälestus
+option.COLORGRADING.comment=Lubab seadetid lõplike värvikanalite vabaks segunemiseks.
+option.GR_RR=Punane punasele
+option.GR_RG=Punane rohelisele
+option.GR_RB=Punane sinisele
+option.GR_RC=Punane kõver
+option.GR_GR=Roheline punasele
+option.GR_GG=Roheline rohelisele
+option.GR_GB=Roheline sinisele
+option.GR_GC=Roheline kõver
+option.GR_BR=Sinine punasele
+option.GR_BG=Sinine rohelisele
+option.GR_BB=Sinine sinisele
+option.GR_BC=Sinine kõver
+
+option.WATER_STYLE_DEFINE=Vee stiil
+option.WATER_STYLE_DEFINE.comment=Määrab vee stiili. §e[*]§r "Stiilist määratud" tähendab, et seade määratakse automaatselt Varjutaja valikute peamenüüs "Visuaalne stiil" seadetega.
+value.WATER_STYLE_DEFINE.-1=Stiilist määratud
+value.WATER_STYLE_DEFINE.1=Reimagined
+value.WATER_STYLE_DEFINE.2=Reimagined + Waves
+value.WATER_STYLE_DEFINE.3=Unbound
+
+option.WATER_CAUSTIC_STYLE_DEFINE=Vee kaustika stiil
+option.WATER_CAUSTIC_STYLE_DEFINE.comment=Määrab vee varjude stiili, tuntud ka kui vee kaustika.
+value.WATER_CAUSTIC_STYLE_DEFINE.-1=Sama mis vesi
+value.WATER_CAUSTIC_STYLE_DEFINE.1=Reimagined
+value.WATER_CAUSTIC_STYLE_DEFINE.2=CYV
+value.WATER_CAUSTIC_STYLE_DEFINE.3=Unbound
+
+option.WATER_CAUSTICS_STRENGTH=Kaustika tugevus
+option.WATER_CAUSTICS_STRENGTH.comment=Kohandab "CYV" vee kaustika stiili tugevust. §e[*]§r See seade töötab ainult "CYV" vee kaustika stiiliga.
+
+option.WATER_REFRACTION_INTENSITY=Vee refraktsiooni intensiivsus §e[*]§r
+option.WATER_REFRACTION_INTENSITY.comment=Kohandab vee refraktsiooni ja veealuse moonutuse intensiivsust. §e[*]§r See seade töötab täielikult ainult siis, kui Detailide kvaliteet on seatud "Kõrge" peale, muidu mõjutab ta ainult peent veealust moonutust.
+
+option.WATER_FOAM_I=Vee vahu intensiivsus
+option.WATER_FOAM_I.comment=Määrab vahu läbipaistmatust, mis on nähtav vee äärtes. §e[*]§r See seade töötab ainult siis, kui Detailide kvaliteet on seatud Keskmine või kõrgemale.
+
+option.WATER_ALPHA_MULT=Vee läbipaistmatuse tegur
+option.WATER_ALPHA_MULT.comment=Kohandab, kui läbipaistmatu vesi näib. §c[-]§r Ekstreemsed väärtused lõhuvad vee valgustuse tasakaalu. §e[*]§r See seade töötab ainult siis, kui Detailide kvaliteet on seatud Keskmine või kõrgemale.
+
+option.WATER_FOG_MULT=Vee udu tegur
+option.WATER_FOG_MULT.comment=Kohandab, kui lähedal vee udu näib. Kõrgemad väärtused pakuvad lähemat udu. §c[-]§r Ekstreemsed väärtused lõhuvad vee valgustuse tasakaalu.
+
+option.WATERCOLOR_R=Vee pinna punane kordaja
+option.WATERCOLOR_G=Vee pinna roheline kordaja
+option.WATERCOLOR_B=Vee pinna sinine kordaja
+
+option.WATERCOLOR_MODE=Värvirežiim
+option.WATERCOLOR_MODE.comment=Määrab, kuidas vee värvi käsitletakse. Konstantne: vee värvid ei muutu bioloogiate vahel. Bioloogiapõhine: värv muutub sõltuvalt bioloogiast. Bioloogiapõhine (piiratud): bioloogiapõhine, aga väldib pinna värvi kummaliseks muutumist teatud bioloogiates. §e[*]§r See seade ei tööta korralikult Minecrafti versioonidel alla 1.13.
+value.WATERCOLOR_MODE.3=Bioloogiapõhine (piiratud)
+value.WATERCOLOR_MODE.2=Bioloogiapõhine
+value.WATERCOLOR_MODE.0=Konstantne
+
+option.BRIGHT_CAVE_WATER=Heledam madal- ja koopavesi
+option.BRIGHT_CAVE_WATER.comment=Teeb madalat vett või suletud aladel olevat vett heledamaks, et parandada nähtavust koobastes ja lisada mõned värvi detailid ookeanide madalatele osadele. §e[*]§r See efekt ei tööta, kui Vee läbipaistmatuse tegur on seatud kõrgemale kui 199, tehnilistel põhjustel.
+
+option.UNDERWATERCOLOR_R=Veealune punane kordaja
+option.UNDERWATERCOLOR_G=Veealune roheline kordaja
+option.UNDERWATERCOLOR_B=Veealune sinine kordaja
+
+option.WATER_BUMPINESS=Lainete tugevus
+option.WATER_BUMPINESS.comment=Kohandab vee peal nähtavate pinnasuunaliste lainete (normaalide) intensiivsust.
+
+option.WATER_BUMP_SMALL=Lainete tugevus - väikesed lained
+option.WATER_BUMP_SMALL.comment=Kohandab nende lainete intensiivsust, mis on teistest väiksemad.
+
+option.WATER_BUMP_MED=Lainete tugevus - keskmised lained
+option.WATER_BUMP_MED.comment=Kohandab nende lainete intensiivsust, mis on teistest keskmise suurusega.
+
+option.WATER_BUMP_BIG=Lainete tugevus - suured lained
+option.WATER_BUMP_BIG.comment=Kohandab nende lainete intensiivsust, mis on teistest suuremad.
+
+option.WATER_SPEED_MULT=Lainete kiirus
+option.WATER_SPEED_MULT.comment=Kohandab vee peal nähtavate pinnasuunaliste lainete (normaalide) liikumiskiirust.
+
+option.WATER_SIZE_MULT=Lainete suurus
+option.WATER_SIZE_MULT.comment=Kohandab, kui suured vee peal nähtavad pinnasuunalised lained (normaalid) näivad.
+
+option.SUN_ANGLE=Päikese/kuu nurk
+option.SUN_ANGLE.comment=Kohandab päikese/kuu nurka maailma suhtes keskpäeva ajal. §a[+]§r Reimagined'i valgustusmudel on spetsiaalselt disainitud, et "0" päikese nurk töötaks sama hästi kui teised.
+value.SUN_ANGLE.-1=Stiilist määratud
+value.SUN_ANGLE.0=0 §r(§bReimagined§r)
+value.SUN_ANGLE.-40=-40 §r(§dUnbound§r)
+
+option.SUN_MOON_STYLE_DEFINE=Päikese/kuu stiil
+option.SUN_MOON_STYLE_DEFINE.comment=Määrab päikese/kuu stiili. §e[*]§r See seade võib mõnedega ressursipakkidega valesti vastastikmõjus olla päikese/kuu/taevakasti eristamise piirangute tõttu.
+value.SUN_MOON_STYLE_DEFINE.-1=Stiilist määratud
+value.SUN_MOON_STYLE_DEFINE.1=Reimagined
+value.SUN_MOON_STYLE_DEFINE.2=Unbound
+value.SUN_MOON_STYLE_DEFINE.3=Unbound - väiksem
+
+option.SUN_MOON_HORIZON=Päikese/kuu horisont
+option.SUN_MOON_HORIZON.comment=Väldib päikese/kuu ilmumist horisondijoonest allapoole.
+
+option.SUN_MOON_DURING_RAIN=Päike/kuu vihma ajal. §e[*]§r
+option.SUN_MOON_DURING_RAIN.comment=Määrab, kas päike ja kuu on nähtavad vihma ajal või mitte. §e[*]§r See seade muudab ka valgustuse tasakaalu vihma ajal.
+
+option.IMPROVED_RAIN_DEFINE=Täiustatud ilmastiku tekstuurid
+option.IMPROVED_RAIN_DEFINE.comment=Lubab täiustatud ilmastikutekstuuride käsitlemise, mis lubab paremaid värve ja parandab ka Minecrafti viga, kus vihm/lumi pole nähtav värvilise või muudetud klaasi taga.
+value.IMPROVED_RAIN_DEFINE.0=VÄLJA
+value.IMPROVED_RAIN_DEFINE.1=SISSE
+
+option.NIGHT_STAR_AMOUNT=Öötähtede hulk
+option.NIGHT_STAR_AMOUNT.comment=Määrab tähtede hulga öises taevas.
+value.NIGHT_STAR_AMOUNT.0=Väljas
+value.NIGHT_STAR_AMOUNT.1=Madal
+value.NIGHT_STAR_AMOUNT.2=Keskmine
+value.NIGHT_STAR_AMOUNT.3=Kõrge
+value.NIGHT_STAR_AMOUNT.4=Väga kõrge
+
+option.RAINBOWS=Vikerkaared
+option.RAINBOWS.comment=Lubab vikerkaared, mis ilmuvad päikese vastasküljele hommiku/õhtu ajal.
+value.RAINBOWS.0=VÄLJA
+value.RAINBOWS.1=Pärast vihma
+value.RAINBOWS.3=Alati
+
+option.RAINBOW_STYLE_DEFINE=Vikerkaare stiil
+option.RAINBOW_STYLE_DEFINE.comment=Määrab vikerkaarte stiili. §e[*]§r "Stiilist määratud" tähendab, et seade määratakse automaatselt Varjutaja valikute peamenüüs "Visuaalne stiil" seadetega.
+value.RAINBOW_STYLE_DEFINE.-1=Stiilist määratud
+value.RAINBOW_STYLE_DEFINE.1=Reimagined
+value.RAINBOW_STYLE_DEFINE.4=Unbound
+
+option.AURORA_STYLE_DEFINE=Virmaliste stiil
+option.AURORA_STYLE_DEFINE.comment=Määrab põhjavalguste stiili, mis ilmuvad öises taevas.
+value.AURORA_STYLE_DEFINE.-1=Stiilist määratud
+value.AURORA_STYLE_DEFINE.0=VÄLJA
+value.AURORA_STYLE_DEFINE.1=Reimagined
+value.AURORA_STYLE_DEFINE.2=Unbound
+
+option.AURORA_CONDITION=Virmaliste ting.
+option.AURORA_CONDITION.comment=Virmaliste tingimuse seade määrab tingimused, mil virmalised ilmuvad. §e[*]§r Virmalised ilmuvad ainult öösel, sellest seadetest hoolimata
+value.AURORA_CONDITION.0=Igal ööl
+value.AURORA_CONDITION.1=Täiskuu
+value.AURORA_CONDITION.2=Lumises bioloogias
+value.AURORA_CONDITION.3=Täiskuu lumises bioloogias
+value.AURORA_CONDITION.4=Täiskuu või lumises bioloogias
+
+option.NIGHT_NEBULAE=§eÖö udupeenrad§r
+option.NIGHT_NEBULAE.comment=Lisab galaktikastiilis udupeenrad öisesse taevasse. Udupeenrad on protseduuriliselt genereeritud ja nad näivad iga öö erinevalt. §c[-]§r See efekt võib mõjutada jõudlust. §e[*]§r "Udupeenrad" pole trükiviga, see on Nebula mitmus =D
+value.NIGHT_NEBULAE.-1=VÄLJA
+value.NIGHT_NEBULAE.1=§eSISSE
+
+option.NIGHT_NEBULA_I=Öö udupeenra heledus
+option.NIGHT_NEBULA_I.comment=Kohandab öö udupeenrute heledust.
+
+option.RAIN_STYLE=Vihmase ilmaga stiil
+option.RAIN_STYLE.comment=Määrab vihmase ilmaga stiili.
+value.RAIN_STYLE.1=Kerge & soojem
+value.RAIN_STYLE.2=Raske & külmem
+
+option.SPECIAL_BIOME_WEATHER=Eriline külm/kuiv ilm
+option.SPECIAL_BIOME_WEATHER.comment=Muudab külmetes ja kuivades bioloogiates atmosfääri tasakaalu, et asjad tunduksid nagu lumi- või liivatorm.
+
+option.WEATHER_TEX_OPACITY=Ilmastikutekstuuride läbipaistmatus
+option.WEATHER_TEX_OPACITY.comment=Kohandab vihmasajude/lumesajude ilmastikutekstuuride läbipaistmatust.
+
+option.SHADOW_SMOOTHING=§eVarjude pehmendus§r
+option.SHADOW_SMOOTHING.comment=Määrab varjude teravuse. §c[-]§r Selle seadete langetamine suurendab varjude värisemist ja mõjutab jõudlust. §e[*]§r See seade töötab ainult siis, kui "Reaalajas varjud" on seatud Madalale või kõrgemale.
+value.SHADOW_SMOOTHING.4=§aVäga pehme
+value.SHADOW_SMOOTHING.3=§aPehme
+value.SHADOW_SMOOTHING.2=§cTerav [-]
+value.SHADOW_SMOOTHING.1=§cVäga terav [-]
+
+option.PIXELATED_SHADOWS=Pikslilised varjud
+option.PIXELATED_SHADOWS.comment=Teeb päikese ja kuu visatavad varjud piksliliseks näima.
+
+option.PIXELATED_BLOCKLIGHT=Piksliline plokkvalgus
+option.PIXELATED_BLOCKLIGHT.comment=Teeb valgusallikaplokkide visatava valgustuse piksliliseks näima.
+
+option.PIXELATED_AO=Pikslilised äärevarjud
+option.PIXELATED_AO.comment=Teeb Minecrafti vanilla üldvalguse oklusiooni piksliliseks näima.
+
+option.PIXEL_SCALE=Pikslilisuse suurus
+option.PIXEL_SCALE.comment=Skaleerimine, mis tehakse tekstuuride eraldusvõimele.
+value.PIXEL_SCALE.-2=0.25x
+value.PIXEL_SCALE.-1=0.5x
+value.PIXEL_SCALE.1=1x
+value.PIXEL_SCALE.2=2x
+value.PIXEL_SCALE.3=4x
+value.PIXEL_SCALE.4=8x
+value.PIXEL_SCALE.5=16x
+
+option.BLOOM_ENABLED=§eBloom§r
+option.BLOOM_ENABLED.comment=Lubab häguse helenduse eredatel objektidel ja niiskusel. §c[-]§r See efekt võib mõjutada jõudlust.
+value.BLOOM_ENABLED.-1=VÄLJA
+value.BLOOM_ENABLED.1=§eSISSE
+
+option.BLOOM_STRENGTH=Bloomi tugevus
+option.BLOOM_STRENGTH.comment=Määrab helenduse intensiivsust eredatel asjadel ja bloom vihma/koopa niiskusest. §c[-]§r Liiga palju bloom teeb pildi hägusemaks ja heledamaks kui kavatsatud, eriti niisketes olukordades.
+value.BLOOM_STRENGTH.0.027=15%
+value.BLOOM_STRENGTH.0.036=20%
+value.BLOOM_STRENGTH.0.045=25%
+value.BLOOM_STRENGTH.0.054=30%
+value.BLOOM_STRENGTH.0.063=35%
+value.BLOOM_STRENGTH.0.072=40%
+value.BLOOM_STRENGTH.0.081=45%
+value.BLOOM_STRENGTH.0.09=50%
+value.BLOOM_STRENGTH.0.10=55%
+value.BLOOM_STRENGTH.0.11=60%
+value.BLOOM_STRENGTH.0.12=65%
+value.BLOOM_STRENGTH.0.13=70%
+value.BLOOM_STRENGTH.0.14=75%
+value.BLOOM_STRENGTH.0.15=80% §c[-]
+value.BLOOM_STRENGTH.0.16=85% §c[-]
+value.BLOOM_STRENGTH.0.17=90% §c[-]
+value.BLOOM_STRENGTH.0.18=95% §c[-]
+value.BLOOM_STRENGTH.0.19=100% §c[-]
+value.BLOOM_STRENGTH.0.21=110% §c[-]
+value.BLOOM_STRENGTH.0.23=120% §c[-]
+value.BLOOM_STRENGTH.0.25=130% §c[-]
+value.BLOOM_STRENGTH.0.28=150% §c[-]
+value.BLOOM_STRENGTH.0.32=180% §c[-]
+value.BLOOM_STRENGTH.10.00=§cHullumeelne
+
+option.IMAGE_SHARPENING=Pildi teravustamine
+option.IMAGE_SHARPENING.comment=Teeb pildi teravamaks filtri abil. §c[-]§r Liiga palju teravustamist võib põhjustada visuaalseid artefakte nagu sakilisus, värisemine, müra ja peened heleduse muutused.
+value.IMAGE_SHARPENING.0=VÄLJA
+value.IMAGE_SHARPENING.1=1x
+value.IMAGE_SHARPENING.2=2x
+value.IMAGE_SHARPENING.3=3x
+value.IMAGE_SHARPENING.4=4x
+value.IMAGE_SHARPENING.5=5x
+value.IMAGE_SHARPENING.6=6x §c[-]
+value.IMAGE_SHARPENING.7=7x §c[-]
+value.IMAGE_SHARPENING.8=8x §c[-]
+value.IMAGE_SHARPENING.9=9x §c[-]
+value.IMAGE_SHARPENING.10=10x §c[-]
+
+option.LENSFLARE_MODE=§eLääseefekt§r
+option.LENSFLARE_MODE.comment=Lisab kaameraläätse peegelduse efekti, kui vaadata päikese või kuu suunas. §c[-]§r See efekt võib tõsiselt mõjutada jõudlust.
+value.LENSFLARE_MODE.0=VÄLJA
+value.LENSFLARE_MODE.1=§cAinult päike - ring
+value.LENSFLARE_MODE.2=§cPäike & kuu - ring
+value.LENSFLARE_MODE.3=§cAinult päike - ruut
+value.LENSFLARE_MODE.4=§cPäike & kuu - ruut
+
+option.LENSFLARE_I=Lääseefekti intensiivsus
+option.LENSFLARE_I.comment=Kohandab Lääseefekti efekti tugevust.
+
+option.TAA_DEFINE=§eAjaline filter§r
+option.TAA_DEFINE.comment=Lubab ajalise sakilisuse eemalduse, mis aitab silitada teralisi efekte, parandab jõudlust mõnede raskemate efektide näidiste hulka vähendades ja võib vähendada sakilisust õigete seadetega. §c[-]§r: Selle väljalülitamine toob kaasa halvema jõudluse ja halvema efekti kvaliteedi, aga see võib ka suurendada jõudlust, kui kombineerida väga madalate varjutaja seadetega.
+value.TAA_DEFINE.-1=§aMääratud DQ poolt
+value.TAA_DEFINE.0=§cVÄLJA [-]
+value.TAA_DEFINE.1=SISSE §a[+]
+
+option.TAA_SMOOTHING=Ajaline pehmendus
+option.TAA_SMOOTHING.comment=Kohandab pehmenduse hulka, mida Ajaline filter rakendab. Kõrgemad väärtused toodavad hägusemat pilti, aga vähendavad värisemist ja teralisust. Vahe ei ole märgatav paigal seistes.
+value.TAA_SMOOTHING.2=Madal
+value.TAA_SMOOTHING.3=Keskmine
+value.TAA_SMOOTHING.4=Kõrge
+
+option.TAA_JITTER=Ajaline värin §e[*]§r
+option.TAA_JITTER.comment=Värin aitab Ajalisel filteril pilti paremini sakilisusest vabastada, aga omab mõned puudused. §e[*]§r Kõrgemad väärtused parandavad sakilisuse eemaldust, aga tekitavad samal ajal ka palju värisemist ja hägusust. §e[*]§r Kõrget ajalist pehmendust soovitatakse Täieliku värinaga. §c[-]§r Värina väljalülitamine elimineerib sakilisuse eemalduse eelised.
+value.TAA_JITTER.0=VÄLJA §c[-]
+value.TAA_JITTER.1=Madal
+value.TAA_JITTER.2=Keskmine
+value.TAA_JITTER.3=Täielik §e[*]
+
+option.TAA_MOVEMENT_IMPROVEMENT_FILTER=Catmull-Rom näidistamine
+option.TAA_MOVEMENT_IMPROVEMENT_FILTER.comment=Vähendab Ajalise filtri hägusust arenenuma näidistamismeetodi abil.
+value.TAA_MOVEMENT_IMPROVEMENT_FILTER.0=VÄLJA §c[-]
+value.TAA_MOVEMENT_IMPROVEMENT_FILTER.1=SISSE
+
+option.FXAA_STRENGTH=FXAA tugevus
+option.FXAA_STRENGTH.comment=Kohandab FXAA efekti intensiivsust. Kõrgemad väärtused toodavad paremat sakilisuse eemaldust hägusema pildi hinnaga.
+value.FXAA_STRENGTH.-1=VÄLJA
+
+option.FXAA_TAA_INTERACTION=Vähenda FXAA'i liikumisel
+option.FXAA_TAA_INTERACTION.comment=Vähendab FXAA'i tugevust, kui kaamera liigub. Kõrgemad väärtused toodavad teravamat pilti, aga ka rohkemat värisemist.
+value.FXAA_TAA_INTERACTION.0=VÄLJA
+value.FXAA_TAA_INTERACTION.2=20
+value.FXAA_TAA_INTERACTION.4=40
+value.FXAA_TAA_INTERACTION.6=60
+value.FXAA_TAA_INTERACTION.8=80
+value.FXAA_TAA_INTERACTION.10=100
+
+option.DISTANT_LIGHT_BOKEH=Kauged valguse bokeh'd
+option.DISTANT_LIGHT_BOKEH.comment=Teeb kauged valgusallikad hajutatuna näima, rakendades ühe piksli hägustust kaugusel. §a[+]§r See efekt saab kasu IntegratedPBR+'ist (valikuline), kohandades kauged valgusallikad paremaks väljanägemiseks.
+
+option.MOTION_BLUR_EFFECT=§eLiikumise hägustus§r
+option.MOTION_BLUR_EFFECT.comment=Rakendab hägustust pildile, kui kaamerat liigutada. §c[-]§r See efekt võib mõjutada jõudlust.
+value.MOTION_BLUR_EFFECT.-1=VÄLJA
+value.MOTION_BLUR_EFFECT.1=§eSISSE
+
+option.MOTION_BLURRING_STRENGTH=Liikumise hägustuse tugevus
+option.MOTION_BLURRING_STRENGTH.comment=Kohandab liikumise hägustuse intensiivsust.
+
+option.WORLD_BLUR=§eMaailma hägustus§r
+option.WORLD_BLUR.comment=Lubab maailma hägustuse. Kauguse hägustus: hägustust rakendatakse nagu udu, sõltuvalt kaugusest kaamerast. Sügavusväli: hägustamine toimub sõltuvalt kaamera fookuspunktist. §c[-]§r See efekt võib tõsiselt mõjutada jõudlust.
+value.WORLD_BLUR.0=§aVÄLJA
+value.WORLD_BLUR.1=§cKauguse hägustus
+value.WORLD_BLUR.2=§cSügavusväli
+
+option.WB_FOV_SCALED=FOV'ga skaleeritud hägustus
+option.WB_FOV_SCALED.comment=Skaleerib maailma hägustuse kaamera vaatenurgaga. Maailma hägustus muutub intensiivsemaks, kui sisse zoomid, kui see on lubatud.
+
+option.WB_CHROMATIC=Kromaatiline hägustus
+option.WB_CHROMATIC.comment=Rakendab kromaatilist aberratsiooni hägustetud aladele, eraldades erinevaid värve hägustetud alades.
+
+option.WB_ANAMORPHIC=Anamorfne hägustus
+option.WB_ANAMORPHIC.comment=Venitab hägustust ühes suunas. §c[-]§r See valik võib vähendada maailma hägustuse kvaliteeti
+
+option.WB_DOF_I=Sügavusvälja tugevus
+option.WB_DOF_FOCUS=Sügavusvälja fookus
+option.WB_DOF_FOCUS.comment=Määrab kaamera fookuskauguse. Automaatne: fookuspunkt kohandatakse ekraani keskpunkti järgi. Heledus: fookuspunkt määratakse videosseadete "Heledus" liuguriga.
+value.WB_DOF_FOCUS.-1=Heledus §e[*]
+value.WB_DOF_FOCUS.0=Automaatne
+
+option.WB_DB_DAY_I=Ka. hägustus - päev
+option.WB_DB_NIGHT_I=Ka. hägustus - öö & ruumid
+option.WB_DB_RAIN_I=Ka. hägustus - vihm & lumi
+option.WB_DB_WATER_I=Ka. hägustus - vee all
+option.WB_DB_NETHER_I=Ka. hägustus - Nether
+option.WB_DB_END_I=Ka. hägustus - End
+
+option.VIGNETTE_R=Vinjetting
+option.VIGNETTE_R.comment=Rakendab tumenemist ekraani äärte ümber.
+
+option.CHROMA_ABERRATION=Kromaatiline aberratsioon
+option.CHROMA_ABERRATION.comment=Eraldab erinevaid värve ekraani äärte suunas. §c[-]§r Kromaatiline aberratsioon võib pildi hägusena tunduma panna; kõrgemaid väärtusi pole mängimiseks soovitatud.
+value.CHROMA_ABERRATION.4=4 §c[-]
+value.CHROMA_ABERRATION.5=5 §c[-]
+value.CHROMA_ABERRATION.6=6 §c[-]
+value.CHROMA_ABERRATION.7=7 §c[-]
+value.CHROMA_ABERRATION.8=8 §c[-]
+
+option.IPBR_EMISSIVE_MODE=IPBR+ iselenduvuse režiim
+option.IPBR_EMISSIVE_MODE.comment=Määrab iselenduvuste käsitlemist IntegratedPBR+'is. labPBR'i või seuspbr'i valikute valimine lubab ühilduvatel ressursipakkidel täielikult üle kirjutada IPBR+ iselenduvused plokkidel, kellel on spetsulaarsed tekstuurid küljes. §c[-]§r Ei ole soovitatud seda seadet muuta, kui sa just ei tea, mida teed.
+value.IPBR_EMISSIVE_MODE.1=Ainult IPBR+
+value.IPBR_EMISSIVE_MODE.3=labPBR > IPBR+
+value.IPBR_EMISSIVE_MODE.2=seuspbr > IPBR+
+
+option.IPBR_COMPAT_MODE_DEFINE=IPBR+ ühilduvuse režiim
+option.IPBR_COMPAT_MODE_DEFINE.comment=Muudab, kuidas mõned IPBR+ funktsioonid arvutatakse, et olla vähem agressiivne, et põhjustada vähem probleeme ressursipakkide või mode'idega.
+
+option.IPBR_PARTICLE_FEATURES=IPBR+ osakeste funktsioonid
+option.IPBR_PARTICLE_FEATURES.comment=Lubab mitu funktsiooni osakestele, sealhulgas asjad nagu helenduvad laavaosakesed ja paremini värvitud veepartiklid.
+
+option.FANCY_GLASS=Täiustatud klaas §c[-]§r
+option.FANCY_GLASS.comment=Täiustab tavalist klaasi, lisades sellele poolläbipaistva kihi. §c[-]§r Ei tööta vanematel Iris'i versioonidel. §e[*]§r RP-tugi valik peab olema seatud Integrated PBR+ peale.
+
+option.GREEN_SCREEN_LIME=Rohelise ekraani laimiplokid
+option.GREEN_SCREEN_LIME.comment=Teeb "Laimbetooni", "Laimvilla" ja "Laimvaiba" roheliseks ekraaniks videotöötluse jaoks. Vihje 1: Keela "Bloom" valik, et parandada eraldust. Vihje 2: Pane valgused laimvaipade alla valgustuseks. Vihje 3: Saad keelata Sakilisuse eemalduse (FXAA) ja seada Detailide kvaliteet Potato peale Jõudluse seadetes, et keelata kogu filtreerimine ja saada pikslitäpne eraldus.
+
+option.MIRROR_TINTED_GLASS=Peegelsarnane toonitud klaas
+option.MIRROR_TINTED_GLASS.comment=Suurendab toonitud klaasplokkide peegeldusvõimet ja läbipaistmatust. Luba parimate tulemuste jaoks maailmaruumi peegeldused. §c[-]§r Ei ole soovitatud kasutada 100% peeglit üldises mängimises, sest see teeb paljud peegeldusprobleemid väga ilmseks.
+value.MIRROR_TINTED_GLASS.0=VÄLJA
+value.MIRROR_TINTED_GLASS.35=35% peegel
+value.MIRROR_TINTED_GLASS.70=70% peegel
+value.MIRROR_TINTED_GLASS.100=100% peegel §c[-]
+
+option.MORE_REFLECTIVE_DISTANT_GLASS=Peegeldavam kaugklaas
+option.MORE_REFLECTIVE_DISTANT_GLASS.comment=Suurendab kaugklaaside peegeldusvõimet ja läbipaistmatust, et klaasakendega hooned paremini näiksid.
+
+option.HIDE_ARMOR=Peida soomus §e[*]§r
+option.HIDE_ARMOR.comment=Peidab mängija või kõikide olendite kantsatud soomust ja elytra't. Elytra'd näidatakse ainult lennates. §e[*]§r See seade töötab ainult Iris'il. §e[*]§r "Peamängijal" valik võib sassi näida, kui teised soomust kantsad olendid tulevad peamängijale väga lähedale.
+value.HIDE_ARMOR.0=VÄLJA
+value.HIDE_ARMOR.1=Peamängijal §e[*]§r
+value.HIDE_ARMOR.2=Kõikidel olenditel
+
+option.HAND_SWAYING=Käe kiigumine
+option.HAND_SWAYING.comment=Lisab aeglast liikumist mängija käele, et simuleerida hingamisanimatsiooni.
+value.HAND_SWAYING.0=VÄLJA
+value.HAND_SWAYING.1=Peenike
+value.HAND_SWAYING.2=Tavaline
+value.HAND_SWAYING.3=Intensiivne
+
+option.LESS_LAVA_FOG=Vähem udu laava või lume sees
+option.LESS_LAVA_FOG.comment=Vähendab laavaudu ja pulberlume udu, et parandada nende sees nähtavust.
+
+option.REDUCE_CLOSE_PARTICLES=Vähenda lähedasi osakesi
+option.REDUCE_CLOSE_PARTICLES.comment=Vähendab kaamera lähedal olevate osakeste läbipaistmatust, et parandada nähtavust.
+
+option.SNOWY_WORLD=Lumine maailm
+option.SNOWY_WORLD.comment=Teeb kogu maailma lumega kaetuks.
+
+option.SHOW_LIGHT_LEVEL=Näita valgustusetasemeid
+option.SHOW_LIGHT_LEVEL.comment=Ülmaailmas: kollane tähendab, et kollikised saavad öösel spawn'ida, punane tähendab, et kollikised saavad spawn'ida igal ajal. Netheris või Endis: kollane tähendab, et mõned kollikised saavad spawn'ida, punane tähendab, et kõik kollikised saavad spawn'ida. §e[*]§r Keela täpsete tulemuste jaoks pehme valgustus.
+value.SHOW_LIGHT_LEVEL.0=VÄLJA
+value.SHOW_LIGHT_LEVEL.1=Hoia ämbrisilma
+value.SHOW_LIGHT_LEVEL.2=Hoia valgusallikat
+value.SHOW_LIGHT_LEVEL.3=Alati SISSE
+
+option.COLOR_CODED_PROGRAMS=Värvikodeeritud programmid §c[-]§r
+option.COLOR_CODED_PROGRAMS.comment=Näitab, milliseid varjutaja programme kasutatakse geomeetria renderdamiseks. §c[-]§r See valik on ainult arenduse jaoks ja ei tohiks mängimiseks kasutada. §e[*]§r Värviväärtused saab leida varjupaki failidest: shaders/cyv/effects/colorCodedPrograms.glsl
+
+option.GLOWING_COLORED_PARTICLES=Sunnitud helendavad osakesed §c[-]§r
+option.GLOWING_COLORED_PARTICLES.comment=Teeb kõik osakesed, mis tehniliselt on "värvilised", iselenduvaks. §c[-]§r See valik pole üldiseks mängimiseks soovitatud, sest see teeb paljud osakesed helendama, kui nad on tehtud materjalidest, mis ei peaks üldse helendama.
+
+option.CAVE_LIGHTING=Koopa valgustuse kordaja
+option.CAVE_LIGHTING.comment=Lisab ekstra valgustust aladele, kus pole taevavalgustust. §e[*]§r Koopa valgustust mõjutab ka videosseadete "Heledus" liugur. §c[-]§r Selle seadete drastiline muutmine võib lõhuda valgustuse tasakaalu.
+
+option.AMBIENT_MULT=Varjuvalguse kordaja
+option.AMBIENT_MULT.comment=Määrab üldvalguse hulka, mis on nähtav varjudes. §c[-]§r Selle seadete drastiline muutmine võib lõhuda valgustuse tasakaalu.
+
+option.PLAYER_SHADOW=Mängija vari §e[*]§r
+option.PLAYER_SHADOW.comment=Määrab, kas mängija viskab vari või mitte. §e[*]§r See seade töötab täielikult ainult Iris'il. §e[*]§r See seade keelatakse, kui "Reaalajas varjud" on VÄLJA.
+value.PLAYER_SHADOW.-1=VÄLJA
+value.PLAYER_SHADOW.1=SISSE
+
+option.LEAF_SHADOW_OPTIMISATION_DEFINE=§eLehevarju optimeerimine§r
+option.LEAF_SHADOW_OPTIMISATION_DEFINE.comment=Keelab lehtede ja viinapuude varjud tumedamates alades, et saada jõudlust. §c[-]§r Selle optimeerimise peamine puudus on, et see sassib valgustust mõnedega uhkete lehtede ressursipakkidega. §e[*]§r "Määratud DQ poolt" tähendab, et seda seadet määrab "Detailide kvaliteet" Jõudluse seadetes, kui sa seda ei muuda.
+value.LEAF_SHADOW_OPTIMISATION_DEFINE.-1=§aMääratud DQ poolt
+value.LEAF_SHADOW_OPTIMISATION_DEFINE.0=§cVÄLJA
+value.LEAF_SHADOW_OPTIMISATION_DEFINE.1=§aSISSE
+
+option.SKY_EFFECT_REFLECTION_DEFINE=§eTaevas efektide peegeldused§r
+option.SKY_EFFECT_REFLECTION_DEFINE.comment=Lubab peegeldustel näha taevas efekte; nagu pilved, tähted ja virmalised. "SISSE - vesi" valik lubab taevas efektid vee ja poolläbipaistvate peegeldustel, samal ajal "SISSE - täielik" lubab need ka ploki peegeldustel. §e[*]§r "Määratud DQ poolt" tähendab, et seda seadet määrab "Detailide kvaliteet" Jõudluse seadetes, kui sa seda ei muuda.
+value.SKY_EFFECT_REFLECTION_DEFINE.-1=§aMääratud DQ poolt
+value.SKY_EFFECT_REFLECTION_DEFINE.0=§aVÄLJA
+value.SKY_EFFECT_REFLECTION_DEFINE.1=§cSISSE - vesi
+value.SKY_EFFECT_REFLECTION_DEFINE.2=§4§l§n§oSISSE - täielik
+
+option.GENERATED_NORMALS=Genereeritud normaalid
+option.GENERATED_NORMALS.comment=Lisab pindadele auto-genereeritud kummulised detailid. §e[*]§r RP-tugi valik peab olema seatud Integrated PBR+ peale. §e[*]§r Võib kummaliselt näida mõnedega ressursipakkide või mode'idega, mis omavad mittestandardselt eraldusvõimelisi tekstuurid.
+
+option.COATED_TEXTURES=Kaetud tekstuurid
+option.COATED_TEXTURES.comment=Lisab tekstuuridele auto-genereeritud tolmused detailid. §e[*]§r RP-tugi valik peab olema seatud Integrated PBR+ peale. §e[*]§r Võib kummaliselt näida mõnedega ressursipakkide või mode'idega, mis omavad mittestandardselt eraldusvõimelisi tekstuurid.
+
+option.ENTITY_GN_AND_CT=Luba GN & CT olenditel
+option.ENTITY_GN_AND_CT.comment=Otsustab, kas Genereeritud normaalid ja Kaetud tekstuurid võivad olenditel ilmuda. §e[*]§r See ei luba GN'i ega CT't olenditel, kui peamised GN või CT valikud on keelatud.
+
+option.GENERATED_NORMAL_MULT=Genereeritud normaali tugevus
+option.GENERATED_NORMAL_MULT.comment=Kohandab pindadel auto-genereeritud kummuliste detailide tugevust.
+
+option.GENERATED_NORMAL_RES=Genereeritud normaali eraldusvõime
+option.GENERATED_NORMAL_RES.comment=Kohandab pindadel auto-genereeritud kummuliste detailide eraldusvõimet/suurust. §e[*]§r Pane tähele, et GN'i eraldusvõime sõltub ka iga tekstuuride omast eraldusvõimest, mis tähendab, et ressursipakid või mode'id võivad sassida GN'i eraldusvõimet erinevatel plokkidel.
+
+option.COATED_TEXTURE_MULT=Kaetud tekstuuri tugevus
+option.COATED_TEXTURE_MULT.comment=Kohandab tekstuuridel auto-genereeritud tolmuste detailide tugevust.
+
+option.GLOWING_ORE_MASTER=§eLuba helendavad maagid
+option.GLOWING_ORE_MASTER.comment=Lubab helendavate maagide funktsionaalsuse. §e[*]§r "Stiilist määratud" valimine lubab helendavad maagid ainult siis, kui "Visuaalne stiil" on seatud "Unbound" peale. §e[*]§r Alumised seaded ei tööta, kui see valik pole lubatud.
+value.GLOWING_ORE_MASTER.0=VÄLJA
+value.GLOWING_ORE_MASTER.1=Stiilist määratud
+value.GLOWING_ORE_MASTER.2=§aSISSE
+
+option.GLOWING_ORE_MULT=Maagi helenduse tugevus
+option.GLOWING_ORE_MULT.comment=Määrab helendavate maagide eralduvuse tugevust.
+
+option.GLOWING_ORE_IRON=Helenduv raudmaak
+option.GLOWING_ORE_GOLD=Helenduv kuldmaak
+option.GLOWING_ORE_COPPER=Helenduv vaskmaak
+option.GLOWING_ORE_REDSTONE=Helenduv redstone'i maak §e[*]§r
+option.GLOWING_ORE_REDSTONE.comment=§e[*]§r Kõik redstone'i maagid helendavad siiski, kui nad on "aktiveeritud", sellest seadetest hoolimata.
+option.GLOWING_ORE_LAPIS=Helenduv lapis lazuli maak
+option.GLOWING_ORE_EMERALD=Helenduv smaragdimaak
+option.GLOWING_ORE_DIAMOND=Helenduv teemandimaak
+option.GLOWING_ORE_NETHERQUARTZ=Helenduv Netheri kvartsmaak
+option.GLOWING_ORE_NETHERGOLD=Helenduv Netheri kuldmaak
+option.GLOWING_ORE_GILDEDBLACKSTONE=Helenduv kuldatud mustkivi
+option.GLOWING_ORE_ANCIENTDEBRIS=Helenduvad iidsed varemed
+option.GLOWING_ORE_MODDED=Helenduvad mode'itud maagid §e[*]§r
+option.GLOWING_ORE_MODDED.comment=§e[*]§r Saad lisada mode'itud maakide ID'd "CYV-->shaders-->block.properties" faili, et nad helendaksid. Saad avada block.properties mis iga tekstiredaktoriga nagu notepad ja seejärel lisada mode'itud maakide ploki ID'd "block.10024=" kõrvale.
+
+option.GLOWING_AMETHYST=Helenduv ametüst
+value.GLOWING_AMETHYST.0=VÄLJA
+value.GLOWING_AMETHYST.1=Kristall
+value.GLOWING_AMETHYST.2=Kristall & plokk
+
+option.GLOWING_LICHEN=Helenduv helendav samblik
+value.GLOWING_LICHEN.0=VÄLJA
+value.GLOWING_LICHEN.1=Suletud alades
+value.GLOWING_LICHEN.2=Alati
+
+option.EMISSIVE_REDSTONE_BLOCK=Helenduv redstone'i plokk
+
+option.EMISSIVE_LAPIS_BLOCK=Helenduv lapis lazuli plokk
+
+option.GLOWING_ARMOR_TRIM=Helenduv soomusekaunistus §e[*]§r
+option.GLOWING_ARMOR_TRIM.comment=Teeb soomusekaunistused iselenduvaks. §e[*]§r See funktsioon töötab ainult Iris'il, sest Optifine ei toeta soomusekaunistuste tuvastamist.
+
+option.NORMAL_MAP_STRENGTH=Normaalikaardi tugevus
+option.NORMAL_MAP_STRENGTH.comment=Kohandab pindade kummuliste detailide tugevust. §e[*]§r RP-tugi valik peab olema seatud labPBR/seuspbr peale ja ühilduv ressursipakk peab olema kasutusel.
+
+option.CUSTOM_EMISSION_INTENSITY=Kohandatud eraldumise intensiivsus
+option.CUSTOM_EMISSION_INTENSITY.comment=Kohandab helendavate pindade intensiivsust. §e[*]§r RP-tugi valik peab olema seatud labPBR/seuspbr peale ja ühilduv ressursipakk peab olema kasutusel.
+
+option.POM=§eParallaksi oklusiooni vastendamine§r
+option.POM.comment=Lubab 3D efekti pindadel. §c[-]§r See efekt võib tõsiselt mõjutada jõudlust. §e[*]§r RP-tugi valik peab olema seatud labPBR/seuspbr peale ja ühilduv ressursipakk peab olema kasutusel.
+value.POM.false=VÄLJA
+value.POM.true=SISSE §c[-]
+
+option.POM_DEPTH=POM sügavus
+option.POM_DEPTH.comment=Kohandab parallaksi oklusiooni vastendamise sügavust. §e[*]§r RP-tugi valik peab olema seatud labPBR/seuspbr peale ja ühilduv ressursipakk peab olema kasutusel.
+
+option.POM_QUALITY=§ePOM kvaliteet§r
+option.POM_QUALITY.comment=Kohandab parallaksi oklusiooni vastendamise teravust/täpsust. §c[-]§r Väärtused üle 200 võivad tõsiselt mõjutada jõudlust. §e[*]§r Väärtused alla 100 sunnivad "POM valgustuse režiimi" "Pehme" peale. §e[*]§r RP-tugi valik peab olema seatud labPBR/seuspbr peale ja ühilduv ressursipakk peab olema kasutusel.
+value.POM_QUALITY.16=16 §e[*]
+value.POM_QUALITY.32=32 §e[*]
+value.POM_QUALITY.64=64 §e[*]
+value.POM_QUALITY.256=256 §c[-]
+value.POM_QUALITY.512=512 §c[-]
+
+option.POM_DISTANCE=§ePOM kaugus§r
+option.POM_DISTANCE.comment=Kohandab, kui kaugele parallaksi oklusiooni vastendamist arvutatakse. §e[*]§r Soovitatud on hoida see väärtus alla 50, et saada väike jõudluse võit. §e[*]§r RP-tugi valik peab olema seatud labPBR/seuspbr peale ja ühilduv ressursipakk peab olema kasutusel.
+value.POM_DISTANCE.64=64 §e[*]
+value.POM_DISTANCE.128=128 §e[*]
+value.POM_DISTANCE.256=256 §e[*]
+value.POM_DISTANCE.512=512 §e[*]
+value.POM_DISTANCE.1024=1024 §e[*]
+
+option.POM_LIGHTING_MODE=POM valgustuse režiim
+option.POM_LIGHTING_MODE.comment=Kohandab POM'i mõjutatud pindade valgustuse stiili. Terav: POM'i seinad ei saa valgust, kui nad ei ole valguse suunas. Pehme: POM'i seinad saavad siiski valgust, nagu nad ei oleks seinad. §e[*]§r See valik sunnitakse "Pehme" peale, kui POM kvaliteet on seatud alla 100.
+value.POM_LIGHTING_MODE.1=Pehme
+value.POM_LIGHTING_MODE.2=Terav
+
+option.POM_ALLOW_CUTOUT=§ePOM väljalõigatud pindadel §c[-]§r
+option.POM_ALLOW_CUTOUT.comment=Teeb POM'i võimalikuks töötada väljalõigatud ploki osadel (nagu lehtede vahed). §c[-]§r See efekt võib tõsiselt mõjutada jõudlust.
+
+option.DIRECTIONAL_BLOCKLIGHT=§eSuunaline plokkvalgus§r
+option.DIRECTIONAL_BLOCKLIGHT.comment=Lisab sügavust plokkvalgusele sõltuvalt pinnanormaalist. §c[-]§r Võib põhjustada visuaalseid artefakte mõnes olukorras. §c[-]§r See efekt võib mõjutada jõudlust. §e[*]§r RP-tugi valik peab olema seatud labPBR/seuspbr peale ja ühilduv ressursipakk peab olema kasutusel.
+value.DIRECTIONAL_BLOCKLIGHT.0=VÄLJA
+value.DIRECTIONAL_BLOCKLIGHT.3=Peenike §c[-]
+value.DIRECTIONAL_BLOCKLIGHT.7=Tavaline §c[-]
+value.DIRECTIONAL_BLOCKLIGHT.11=Intensiivne §c[-]
+
+option.HELD_LIGHTING_MODE=Dünaamiline käesheldav valgustus
+option.HELD_LIGHTING_MODE.comment=Lubab käesheldavatel valgusallikatel valgust stseenile visata.
+value.HELD_LIGHTING_MODE.0=VÄLJA
+value.HELD_LIGHTING_MODE.1=Peenike
+value.HELD_LIGHTING_MODE.2=Tavaline
+
+option.BLOCKLIGHT_FLICKERING=Plokkvalguse vilkumine
+option.BLOCKLIGHT_FLICKERING.comment=Lisab vilkumise efekti plokkidelt eralduvale valgusele.
+value.BLOCKLIGHT_FLICKERING.0=VÄLJA
+
+option.WAVING_SPEED=Lainetamise kiirus
+option.WAVING_SPEED.comment=Kohandab, kui kiiresti lainetamise efektid toimuvad.
+
+option.WAVING_I=Lainetamise intensiivsus
+option.WAVING_I.comment=Kohandab, kui palju plokid lainetades liiguvad. §c[-]§r Liiga palju lainetamise intensiivsust võib põhjustada lainetavatel plokkidel klippimist teistesse plokkidesse ja välja.
+value.WAVING_I.1.25=1.25 §c[-]
+value.WAVING_I.1.50=1.50 §c[-]
+value.WAVING_I.1.75=1.75 §c[-]
+value.WAVING_I.2.00=2.00 §c[-]
+value.WAVING_I.50.0=§cHullumeelne
+
+option.NO_WAVING_INDOORS=Ei lainetust suletud alades
+option.NO_WAVING_INDOORS.comment=Väldib plokke lainetamast suletud alades, kasutades taevavalgustust. §c[-]§r Selle seadete lubamine võib põhjustada probleeme mõnedega ressursipakkide või mode'idega.
+
+option.WAVING_I_RAIN_MULT=§eLainetamise vihmade kordaja§r
+option.WAVING_I_RAIN_MULT.comment=Kordab lainetamise kiirust ja intensiivsust vihma ajal. §c[-]§r Liiga palju lainetamise intensiivsust võib põhjustada lainetavatel plokkidel klippimist teistesse plokkidesse ja välja. §c[-]§r See seade võib mõjutada jõudlust, kui suurendada üle 100.
+value.WAVING_I.125=125 §c[-]
+value.WAVING_I.150=150 §c[-]
+value.WAVING_I.175=175 §c[-]
+value.WAVING_I.200=200 §c[-]
+
+option.WAVING_FOLIAGE=Lainetav muru
+option.WAVING_FOLIAGE.comment=Lisab liikumist murule ja teistele sarnastele lehestikele, et simuleerida tuult.
+
+option.WAVING_LEAVES=Lainetavad lehed
+option.WAVING_LEAVES.comment=Lisab liikumist lehtedele, et simuleerida tuult.
+
+option.WAVING_LAVA=Lainetav laavatekstuur
+option.WAVING_LAVA.comment=Lisab pidevat liikumist laavale. §e[*]§r Laava lainetamine eriti ei ole mõjutatud "Ei lainetust suletud alades" seadetega.
+
+option.WAVING_LILY_PAD=Lainetav vesiroos §c[-]§r
+option.WAVING_LILY_PAD.comment=Lisab liikumist vesiroosidele ja konnakutrale, et simuleerida veelainete mõjutust. §c[-]§r See teeb vee all olevatel blokkidel olevad vesiroosid nähtamatuks
+
+option.WAVING_WATER_VERTEX=Lainetav vee kõrgus
+option.WAVING_WATER_VERTEX.comment=Lisab liikumist vee positsioonile, et simuleerida tuult. §e[*]§r See valik ei ole seotud "Vee laine tugevus" seadetega.
+
+option.WAVING_RAIN=Lainetav vihm/lumi tekstuur
+option.WAVING_RAIN.comment=Lisab liikumist langevatele vihma ja lume tekstuuridele, et see rohkem dünaamilisena näiks.
+
+option.SPECIAL_PORTAL_EFFECTS=Erilised portaaliefektid
+option.SPECIAL_PORTAL_EFFECTS.comment=Lisab erilisi animatsioone ja eraldumist Netheri portaalidele, Endi portaalidele ja Endi väravatele.
+
+option.REFLECTION_RES=§ePeegelduse eraldusvõime§r
+option.REFLECTION_RES.comment=Muudab PBR peegelduste eraldusvõimet plokkidel (ja maailmaruumi peegeldustel, kui sul see seade on lubatud), et saada jõudlust. §c[-]§r "Täielik" eraldusvõime peegeldused võivad mõnes olukorras mõjutada jõudlust palju rohkem kui oodatakse. §e[*]§r See funktsioon ei tööta Optifine'il.
+value.REFLECTION_RES.1.0=§4§l§n§oTäielik
+value.REFLECTION_RES.0.5=§aPool
+
+option.WORLD_OUTLINE=§eMaailma kontuur§r
+option.WORLD_OUTLINE.comment=Lisab heledad kontuurid plokkide ümber. §c[-]§r See efekt võib mõjutada jõudlust.
+
+option.WORLD_OUTLINE_THICKNESS=§eMaailma kontuuri paksus§r
+option.WORLD_OUTLINE_THICKNESS.comment=Määrab Maailma kontuuri efekti paksuse. §c[-]§r Selle seadete suurendamine võib mõjutada jõudlust.
+
+option.WORLD_OUTLINE_I=Maailma kontuuri heledus
+option.WORLD_OUTLINE_I.comment=Määrab, kui intensiivne Maailma kontuuri efekt on.
+
+option.WORLD_OUTLINE_ON_ENTITIES=Maailma kontuur olenditel
+option.WORLD_OUTLINE_ON_ENTITIES.comment=Määrab, kas Maailma kontuuri efekt rakendub olenditele või mitte. §c[-]§r See seade ei pruugi täiuslikult töötada mõnedega kohandatud PBR ressursipakkidega.
+
+option.WORLD_OUTLINE_SCALED=Kaugusega skaleeritud maailma kontuur
+option.WORLD_OUTLINE_SCALED.comment=Teeb maailma kontuuri suuruse skaleeruvaks sõltuvalt kaugusest.
+
+option.DARK_OUTLINE=§eTume kontuur§r
+option.DARK_OUTLINE.comment=Lisab tumedad kontuurid plokkide ümber. §c[-]§r See efekt võib mõjutada jõudlust.
+
+option.DARK_OUTLINE_THICKNESS=§eTume kontuuri paksus§r
+option.DARK_OUTLINE_THICKNESS.comment=Määrab Tume kontuuri efekti paksuse. §c[-]§r Selle seadete suurendamine võib mõjutada jõudlust.
+
+option.RAIN_PUDDLES=Vihmalompid
+option.RAIN_PUDDLES.comment=Lisab veelompe maastikule vihma ajal. §e[*]§r "Ploki peegelduse kvaliteet" peab olema lubatud, et see töötaks. §e[*]§r Vihmalompidel on probleem, kus nad võivad ilmuda ruumide sees, kui katus on klaasist, aga see probleem on parandatud "Täiustatud värvijälgimise" süsteemiga, kui see valik on lubatud.
+value.RAIN_PUDDLES.0=§aVÄLJA
+value.RAIN_PUDDLES.1=§cLompid vihmas
+value.RAIN_PUDDLES.2=§cTäielik kate vihmas
+value.RAIN_PUDDLES.3=§cLompid alati
+value.RAIN_PUDDLES.4=§cTäielik kate alati
+
+option.UNDERWATER_DISTORTION=Veealune moonutus
+option.UNDERWATER_DISTORTION.comment=Lisab peent refraktsiooni ekraanile, kui kaamera on vee sees.
+
+option.SELECT_OUTLINE=Valiku kontuur
+option.SELECT_OUTLINE.comment=Määrab plokivaliku kontuuri värvi.
+value.SELECT_OUTLINE.0=VÄLJA
+value.SELECT_OUTLINE.1=Vaikeseade
+value.SELECT_OUTLINE.2=Vikerkaar
+value.SELECT_OUTLINE.3=Vali värv
+value.SELECT_OUTLINE.4=Mitmekülgne
+
+option.SELECT_OUTLINE_AUTO_HIDE=Valiku kontuuri automaatne peitmine
+option.SELECT_OUTLINE_AUTO_HIDE.comment=Peidab plokivaliku kontuuri, kui mängija ei hoia midagi oma peakäes.
+
+option.SELECT_OUTLINE_I=KO heledus
+option.SELECT_OUTLINE_R=KO punane
+option.SELECT_OUTLINE_G=KO roheline
+option.SELECT_OUTLINE_B=KO sinine
+
+option.MOON_PHASE_INF_LIGHT=Kuufaasidega öine valgustus
+option.MOON_PHASE_INF_LIGHT.comment=Lubab erinevatel kuufaasidel muuta öise valgustuse heledust.
+
+option.MOON_PHASE_INF_ATMOSPHERE=Kuufaasidega öine atmosfäär
+option.MOON_PHASE_INF_ATMOSPHERE.comment=Lubab erinevatel kuufaasidel muuta öise atmosfääri heledust.
+
+option.MOON_PHASE_INF_REFLECTION=Kuufaasidega kuu peegeldus
+option.MOON_PHASE_INF_REFLECTION.comment=Lubab erinevatel kuufaasidel muuta kuu peegelduste heledust.
+
+option.MOON_PHASE_FULL=Täikuu intensiivsus
+option.MOON_PHASE_FULL.comment=Kohandab kuufaasi mõju Täikuu faasi ajal (heledaim faas).
+
+option.MOON_PHASE_PARTIAL=Osalise kuu intensiivsus
+option.MOON_PHASE_PARTIAL.comment=Kohandab kuufaasi mõju kõikide kuufaaside ajal Täikuu ja Tumedat kuu vahel. See on faas, mida sa näed kõige rohkem Minecraftis.
+
+option.MOON_PHASE_DARK=Tumedat kuu intensiivsus
+option.MOON_PHASE_DARK.comment=Kohandab kuufaasi mõju Noorkuu (tumedaim faas) ajal.
+
+option.CONNECTED_GLASS_EFFECT=Ühendatud klaas
+option.CONNECTED_GLASS_EFFECT.comment=Teeb kõik klaasi tüübid üksteisega ühenduvaks. §e[*]§r See funktsioon töötab ainult siis, kui Täiustatud värvijälgimine on sees Jõudluse seadetes ja sinu süsteem seda toetab. §e[*]§r See funktsioon keelab automaatselt ennast, kui "Continuity" mod on installitud.
+
+option.PORTAL_EDGE_EFFECT=Helenduvad portaaliääred
+option.PORTAL_EDGE_EFFECT.comment=Lisab iselenduva ääre efekti Endi ja Netheri portaalidele. §e[*]§r See funktsioon töötab ainult siis, kui Täiustatud värvijälgimine on sees Jõudluse seadetes ja sinu süsteem seda toetab.
+
+option.PUDDLE_VOXELIZATION=Paranda lompid klaasi all
+option.PUDDLE_VOXELIZATION.comment=Väldib vihmalompide moodustumist suletud alades klaasist katustega, kui Vihmalompid seade on lubatud. §e[*]§r See funktsioon töötab ainult siis, kui Täiustatud värvijälgimine on lubatud ja Detailide kvaliteet on seatud Kõrgele või kõrgemale.
+
+option.COLORED_CANDLE_LIGHT=Värvilised küünalde valgused
+option.COLORED_CANDLE_LIGHT.comment=Teeb küünalde visatavad valgused sama värvi kui nende alused. §e[*]§r Värvitumad küünla värvi variandid jäävad kasutama tavalist tule värvi.
+
+option.COLORED_LIGHT_SATURATION=Värvilise valguse küllastus
+option.COLORED_LIGHT_SATURATION.comment=Kohandab, kui küllastunud on värvid, mis tulevad Täiustatud värvijälgimisest, sealhulgas tõrvikud §e[*]§r Ei ole soovitatud seda väärtust muuta, sest visuaalid on disainitud kõige tasakaalukamalt näima vaikimisi küllastusega.
+
+option.ACT_FIRE_COLOR_WARMNESS=Tõrvik/tule värvi soojus
+option.ACT_FIRE_COLOR_WARMNESS.comment=Kohandab tõrvik/tule/lampide valguse värvi soojust, kui Täiustatud värvijälgimine on lubatud. Pane tähele, et värvi mõjutab ka "Värvilise valguse küllastus" seade. §e[*]§r Ei ole soovitatud seda väärtust muuta rohkem kui vähe, sest visuaalid on disainitud kõige tasakaalukamalt näima vaikimisi tasemega.
+value.ACT_FIRE_COLOR_WARMNESS.100=Tavaline
+
+option.COLORED_LIGHT_FOG=§eVärvilise valguse udu§r
+option.COLORED_LIGHT_FOG.comment=Lisab mahulise plokkvalguse udu stseenile, kõige nähtavamalt öösel või maa all. §e[*]§r See funktsioon töötab ainult siis, kui Täiustatud värvijälgimine on sees Jõudluse seadetes ja sinu süsteem seda toetab. §c[-]§r See efekt võib tõsiselt mõjutada jõudlust.
+
+option.COLORED_LIGHT_FOG_I=Valguse udu intensiivsus
+option.COLORED_LIGHT_FOG_I.comment=Määrab Värvilise valguse udu heleduse.
+
+option.LIGHT_COLOR_MULTS=§eValgustuse värvide kordajad
+option.LIGHT_COLOR_MULTS.comment=Lubab kohandada valgustuse värve, mis on nähtavad kõikidel pindadel.
+
+option.ATM_COLOR_MULTS=§eAtmosfääri värvide kordajad
+option.ATM_COLOR_MULTS.comment=Lubab kohandada atmosfääri värve, mis on peamiselt nähtavad taevas ja udus.
+
+option.LIGHT_MORNING_R=Valgustuse punane kordaja
+option.LIGHT_MORNING_G=Valgustuse roheline kordaja
+option.LIGHT_MORNING_B=Valgustuse sinine kordaja
+option.LIGHT_MORNING_I=Valgustuse intensiivsuse kordaja
+option.ATM_MORNING_R=Atmosfääri punane kordaja
+option.ATM_MORNING_G=Atmosfääri roheline kordaja
+option.ATM_MORNING_B=Atmosfääri sinine kordaja
+option.ATM_MORNING_I=Atmosfääri intensiivsuse kordaja
+option.LIGHT_NOON_R=Valgustuse punane kordaja
+option.LIGHT_NOON_G=Valgustuse roheline kordaja
+option.LIGHT_NOON_B=Valgustuse sinine kordaja
+option.LIGHT_NOON_I=Valgustuse intensiivsuse kordaja
+option.ATM_NOON_R=Atmosfääri punane kordaja
+option.ATM_NOON_G=Atmosfääri roheline kordaja
+option.ATM_NOON_B=Atmosfääri sinine kordaja
+option.ATM_NOON_I=Atmosfääri intensiivsuse kordaja
+option.LIGHT_NIGHT_R=Valgustuse punane kordaja
+option.LIGHT_NIGHT_G=Valgustuse roheline kordaja
+option.LIGHT_NIGHT_B=Valgustuse sinine kordaja
+option.LIGHT_NIGHT_I=Valgustuse intensiivsuse kordaja
+option.ATM_NIGHT_R=Atmosfääri punane kordaja
+option.ATM_NIGHT_G=Atmosfääri roheline kordaja
+option.ATM_NIGHT_B=Atmosfääri sinine kordaja
+option.ATM_NIGHT_I=Atmosfääri intensiivsuse kordaja
+option.LIGHT_RAIN_R=Valgustuse punane kordaja
+option.LIGHT_RAIN_G=Valgustuse roheline kordaja
+option.LIGHT_RAIN_B=Valgustuse sinine kordaja
+option.LIGHT_RAIN_I=Valgustuse intensiivsuse kordaja
+option.ATM_RAIN_R=Atmosfääri punane kordaja
+option.ATM_RAIN_G=Atmosfääri roheline kordaja
+option.ATM_RAIN_B=Atmosfääri sinine kordaja
+option.ATM_RAIN_I=Atmosfääri intensiivsuse kordaja
+option.LIGHT_NETHER_R=Valgustuse punane kordaja
+option.LIGHT_NETHER_G=Valgustuse roheline kordaja
+option.LIGHT_NETHER_B=Valgustuse sinine kordaja
+option.LIGHT_NETHER_I=Valgustuse intensiivsuse kordaja
+option.ATM_NETHER_R=Atmosfääri punane kordaja
+option.ATM_NETHER_G=Atmosfääri roheline kordaja
+option.ATM_NETHER_B=Atmosfääri sinine kordaja
+option.ATM_NETHER_I=Atmosfääri intensiivsuse kordaja
+option.LIGHT_END_R=Valgustuse punane kordaja
+option.LIGHT_END_G=Valgustuse roheline kordaja
+option.LIGHT_END_B=Valgustuse sinine kordaja
+option.LIGHT_END_I=Valgustuse intensiivsuse kordaja
+option.ATM_END_R=Atmosfääri punane kordaja
+option.ATM_END_G=Atmosfääri roheline kordaja
+option.ATM_END_B=Atmosfääri sinine kordaja
+option.ATM_END_I=Atmosfääri intensiivsuse kordaja
+
+option.XLIGHT_R=Plokkvalguse punane kordaja
+option.XLIGHT_G=Plokkvalguse roheline kordaja
+option.XLIGHT_B=Plokkvalguse sinine kordaja
+option.XLIGHT_I=Plokkvalguse intensiivsus
+
+option.XLIGHT_CURVE=Plokkvalguse kontrast
+option.XLIGHT_CURVE.comment=Kohandab, kui kiiresti plokkvalguse intensiivsus hääbub, kui ta liigub kaugusele valgusallikast.
