@@ -1,0 +1,70 @@
+CYV Shaders License Agreement
+==============================
+
+Version 1.0
+
+The Pack ("CYV Shaders") is made by Chosentechies.
+
+0. Definitions
+--------------
+  0.1. "The Pack" means the shaderpack this license file is distributed with,
+       including all of its shader code, configuration files, textures, and
+       assets.
+
+  0.2. "Use" means loading, playing with, or using The Pack for content
+       creation (videos, streams, screenshots, and similar).
+
+  0.3. "Modified Version" means any version of The Pack in which the code,
+       configuration, or assets have been intentionally changed.
+
+1. Grant
+--------
+  1.1. You may freely use The Pack for gameplay and for content creation,
+       on any mod loader it supports, free of charge.
+
+  1.2. You may include The Pack in a modpack, provided that:
+         a. The Pack is credited in the modpack's description if it is
+            enabled by default for new users;
+         b. Any issues arising from including The Pack are the modpack
+            author's responsibility.
+
+  1.3. You may distribute Original or Modified Versions of The Pack,
+       provided that:
+         a. You credit the authors of The Pack in a visible place
+            (description page, README, or similar);
+         b. This license file is included unmodified with your
+            distribution;
+         c. Your distribution is free of charge;
+         d. You do not present the distribution as an official release
+            of CYV Shaders, nor use its name as your own branding for
+            it.
+
+  1.4. You may study, copy and modify the shader code for personal use,
+       and use snippets of it in your own projects, provided credit is
+       given where the code is substantially derived from The Pack.
+
+2. Denied Cases
+---------------
+  2.1. You may not sell The Pack, nor any Modified Version of it, nor
+       place it behind any paywall, ad-gate, or paid download.
+
+  2.2. Everything not explicitly granted above is All Rights Reserved
+       by the authors of The Pack.
+
+3. Warranty
+-----------
+  3.1. The Pack is provided "as is", without warranty of any kind,
+       express or implied, including but not limited to the warranties
+       of merchantability, fitness for a particular purpose and
+       noninfringement. In no event shall the authors be liable for any
+       claim, damages or other liability arising from, out of or in
+       connection with The Pack or its use.
+
+4. Miscellaneous
+----------------
+  4.1. This license applies to this version of The Pack. Updated
+       versions may carry a new license version.
+
+  4.2. The Pack is a Minecraft: Java Edition shaderpack and is not
+       affiliated with, endorsed by, or associated with Mojang Studios
+       or Microsoft.
